@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Drug Dispensing</string>
+    <string name="drug_details">Drug Details</string>
+    <string name="cr_code">CR Number</string>
+    <string name="drug_name">Drug Name</string>
+    <string name="requested_quantity">Requested Quantity</string>
+    <string name="expiry_date">Expiry Date</string>
 </resources>
