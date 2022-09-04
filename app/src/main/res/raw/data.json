@@ -1,0 +1,6602 @@
+{
+  "country":[
+    {
+      "countryCode": 105,
+      "countryName": "Algeria"
+    },
+    {
+      "countryCode": 287,
+      "countryName": "Almas"
+    },
+    {
+      "countryCode": 108,
+      "countryName": "Argentina"
+    },
+    {
+      "countryCode": 109,
+      "countryName": "Armenia"
+    },
+    {
+      "countryCode": 110,
+      "countryName": "Australia"
+    },
+    {
+      "countryCode": 111,
+      "countryName": "Austriaa"
+    },
+    {
+      "countryCode": 112,
+      "countryName": "Azerbaijan"
+    },
+    {
+      "countryCode": 113,
+      "countryName": "Bahamas"
+    },
+    {
+      "countryCode": 114,
+      "countryName": "Bahrain"
+    },
+    {
+      "countryCode": 115,
+      "countryName": "Bangladesh"
+    },
+    {
+      "countryCode": 116,
+      "countryName": "Barbados"
+    },
+    {
+      "countryCode": 117,
+      "countryName": "Belarus"
+    },
+    {
+      "countryCode": 118,
+      "countryName": "Belgium"
+    },
+    {
+      "countryCode": 119,
+      "countryName": "Belize"
+    },
+    {
+      "countryCode": 120,
+      "countryName": "Benin"
+    },
+    {
+      "countryCode": 290,
+      "countryName": "Bharat"
+    },
+    {
+      "countryCode": 121,
+      "countryName": "Bhutan"
+    },
+    {
+      "countryCode": 122,
+      "countryName": "Bolivia"
+    },
+    {
+      "countryCode": 123,
+      "countryName": "Bosnia-Herzegovina"
+    },
+    {
+      "countryCode": 124,
+      "countryName": "Botswana"
+    },
+    {
+      "countryCode": 125,
+      "countryName": "Brazil"
+    },
+    {
+      "countryCode": 126,
+      "countryName": "Britain"
+    },
+    {
+      "countryCode": 127,
+      "countryName": "Brunei"
+    },
+    {
+      "countryCode": 128,
+      "countryName": "Bulgaria"
+    },
+    {
+      "countryCode": 129,
+      "countryName": "Burkina"
+    },
+    {
+      "countryCode": 130,
+      "countryName": "Burma (Official Name Myanmar)"
+    },
+    {
+      "countryCode": 131,
+      "countryName": "Burundi"
+    },
+    {
+      "countryCode": 132,
+      "countryName": "Cambodia"
+    },
+    {
+      "countryCode": 133,
+      "countryName": "Cameroon"
+    },
+    {
+      "countryCode": 134,
+      "countryName": "Canada"
+    },
+    {
+      "countryCode": 135,
+      "countryName": "Cape Verde Islands"
+    },
+    {
+      "countryCode": 136,
+      "countryName": "Chad"
+    },
+    {
+      "countryCode": 137,
+      "countryName": "Chile"
+    },
+    {
+      "countryCode": 138,
+      "countryName": "China"
+    },
+    {
+      "countryCode": 139,
+      "countryName": "Colombia"
+    },
+    {
+      "countryCode": 140,
+      "countryName": "Congo "
+    },
+    {
+      "countryCode": 141,
+      "countryName": "Costa Rica"
+    },
+    {
+      "countryCode": 142,
+      "countryName": "Croatia"
+    },
+    {
+      "countryCode": 143,
+      "countryName": "Cuba"
+    },
+    {
+      "countryCode": 144,
+      "countryName": "Cyprus"
+    },
+    {
+      "countryCode": 145,
+      "countryName": "Czech Republic"
+    },
+    {
+      "countryCode": 146,
+      "countryName": "Denmark"
+    },
+    {
+      "countryCode": 147,
+      "countryName": "Djibouti"
+    },
+    {
+      "countryCode": 148,
+      "countryName": "Dominica"
+    },
+    {
+      "countryCode": 149,
+      "countryName": "Dominican Republic"
+    },
+    {
+      "countryCode": 150,
+      "countryName": "Ecuador"
+    },
+    {
+      "countryCode": 151,
+      "countryName": "Egypt"
+    },
+    {
+      "countryCode": 152,
+      "countryName": "El Salvador"
+    },
+    {
+      "countryCode": 153,
+      "countryName": "England"
+    },
+    {
+      "countryCode": 154,
+      "countryName": "Eritrea"
+    },
+    {
+      "countryCode": 155,
+      "countryName": "Estonia"
+    },
+    {
+      "countryCode": 156,
+      "countryName": "Ethiopia"
+    },
+    {
+      "countryCode": 157,
+      "countryName": "Fiji"
+    },
+    {
+      "countryCode": 158,
+      "countryName": "Finland"
+    },
+    {
+      "countryCode": 159,
+      "countryName": "France"
+    },
+    {
+      "countryCode": 288,
+      "countryName": "Fugi"
+    },
+    {
+      "countryCode": 160,
+      "countryName": "Gabon"
+    },
+    {
+      "countryCode": 161,
+      "countryName": "Gambia, The"
+    },
+    {
+      "countryCode": 162,
+      "countryName": "Georgia"
+    },
+    {
+      "countryCode": 163,
+      "countryName": "Germany"
+    },
+    {
+      "countryCode": 164,
+      "countryName": "Ghana "
+    },
+    {
+      "countryCode": 165,
+      "countryName": "Greece "
+    },
+    {
+      "countryCode": 166,
+      "countryName": "Grenada "
+    },
+    {
+      "countryCode": 167,
+      "countryName": "Guatemala "
+    },
+    {
+      "countryCode": 168,
+      "countryName": "Guinea "
+    },
+    {
+      "countryCode": 169,
+      "countryName": "Guyana "
+    },
+    {
+      "countryCode": 170,
+      "countryName": "Haiti "
+    },
+    {
+      "countryCode": 171,
+      "countryName": "Holland"
+    },
+    {
+      "countryCode": 172,
+      "countryName": "Honduras "
+    },
+    {
+      "countryCode": 173,
+      "countryName": "Hungary "
+    },
+    {
+      "countryCode": 174,
+      "countryName": "Iceland "
+    },
+    {
+      "countryCode": 101,
+      "countryName": "India"
+    },
+    {
+      "countryCode": 175,
+      "countryName": "Indonesia "
+    },
+    {
+      "countryCode": 176,
+      "countryName": "Iran "
+    },
+    {
+      "countryCode": 177,
+      "countryName": "Iraq "
+    },
+    {
+      "countryCode": 178,
+      "countryName": "Ireland"
+    },
+    {
+      "countryCode": 179,
+      "countryName": "Israel "
+    },
+    {
+      "countryCode": 180,
+      "countryName": "Italy "
+    },
+    {
+      "countryCode": 181,
+      "countryName": "Jamaica "
+    },
+    {
+      "countryCode": 182,
+      "countryName": "Japan "
+    },
+    {
+      "countryCode": 183,
+      "countryName": "Jordan "
+    },
+    {
+      "countryCode": 184,
+      "countryName": "Kazakhstan "
+    },
+    {
+      "countryCode": 185,
+      "countryName": "Kenya "
+    },
+    {
+      "countryCode": 186,
+      "countryName": "Kuwait "
+    },
+    {
+      "countryCode": 187,
+      "countryName": "Laos "
+    },
+    {
+      "countryCode": 188,
+      "countryName": "Latvia "
+    },
+    {
+      "countryCode": 189,
+      "countryName": "Lebanon "
+    },
+    {
+      "countryCode": 190,
+      "countryName": "Liberia "
+    },
+    {
+      "countryCode": 191,
+      "countryName": "Libya "
+    },
+    {
+      "countryCode": 194,
+      "countryName": "Liechtenstein "
+    },
+    {
+      "countryCode": 195,
+      "countryName": "Lithuania "
+    },
+    {
+      "countryCode": 196,
+      "countryName": "Luxembourg "
+    },
+    {
+      "countryCode": 197,
+      "countryName": "Macedonia "
+    },
+    {
+      "countryCode": 198,
+      "countryName": "Madagascar "
+    },
+    {
+      "countryCode": 199,
+      "countryName": "Malawi "
+    },
+    {
+      "countryCode": 200,
+      "countryName": "Malaysia "
+    },
+    {
+      "countryCode": 201,
+      "countryName": "Maldives "
+    },
+    {
+      "countryCode": 202,
+      "countryName": "Mali "
+    },
+    {
+      "countryCode": 203,
+      "countryName": "Malta "
+    },
+    {
+      "countryCode": 204,
+      "countryName": "Mauritania "
+    },
+    {
+      "countryCode": 205,
+      "countryName": "Mauritius "
+    },
+    {
+      "countryCode": 206,
+      "countryName": "Mexico "
+    },
+    {
+      "countryCode": 207,
+      "countryName": "Moldova "
+    },
+    {
+      "countryCode": 208,
+      "countryName": "Monaco "
+    },
+    {
+      "countryCode": 209,
+      "countryName": "Mongolia "
+    },
+    {
+      "countryCode": 210,
+      "countryName": "Montenegro "
+    },
+    {
+      "countryCode": 211,
+      "countryName": "Morocco "
+    },
+    {
+      "countryCode": 212,
+      "countryName": "Mozambique "
+    },
+    {
+      "countryCode": 213,
+      "countryName": "Namibia "
+    },
+    {
+      "countryCode": 214,
+      "countryName": "Nepal "
+    },
+    {
+      "countryCode": 215,
+      "countryName": "New Zealand "
+    },
+    {
+      "countryCode": 216,
+      "countryName": "Nicaragua "
+    },
+    {
+      "countryCode": 217,
+      "countryName": "Niger "
+    },
+    {
+      "countryCode": 218,
+      "countryName": "Nigeria "
+    },
+    {
+      "countryCode": 192,
+      "countryName": "North Korea"
+    },
+    {
+      "countryCode": 219,
+      "countryName": "Norway "
+    },
+    {
+      "countryCode": 220,
+      "countryName": "Oman "
+    },
+    {
+      "countryCode": 102,
+      "countryName": "Pakistan"
+    },
+    {
+      "countryCode": 221,
+      "countryName": "Panama "
+    },
+    {
+      "countryCode": 222,
+      "countryName": "Papua New Guinea"
+    },
+    {
+      "countryCode": 223,
+      "countryName": "Paraguay "
+    },
+    {
+      "countryCode": 224,
+      "countryName": "Peru "
+    },
+    {
+      "countryCode": 225,
+      "countryName": "Philippines"
+    },
+    {
+      "countryCode": 226,
+      "countryName": "Poland "
+    },
+    {
+      "countryCode": 227,
+      "countryName": "Portugal "
+    },
+    {
+      "countryCode": 228,
+      "countryName": "Qatar "
+    },
+    {
+      "countryCode": 229,
+      "countryName": "Romania "
+    },
+    {
+      "countryCode": 230,
+      "countryName": "Russia "
+    },
+    {
+      "countryCode": 231,
+      "countryName": "Rwanda "
+    },
+    {
+      "countryCode": 232,
+      "countryName": "Saudi Arabia "
+    },
+    {
+      "countryCode": 233,
+      "countryName": "Scotland "
+    },
+    {
+      "countryCode": 234,
+      "countryName": "Senegal "
+    },
+    {
+      "countryCode": 235,
+      "countryName": "Serbia "
+    },
+    {
+      "countryCode": 236,
+      "countryName": "Seychelles"
+    },
+    {
+      "countryCode": 237,
+      "countryName": "Sierra Leone "
+    },
+    {
+      "countryCode": 238,
+      "countryName": "Singapore "
+    },
+    {
+      "countryCode": 239,
+      "countryName": "Slovakia "
+    },
+    {
+      "countryCode": 240,
+      "countryName": "Slovenia "
+    },
+    {
+      "countryCode": 241,
+      "countryName": "Solomon Islands "
+    },
+    {
+      "countryCode": 242,
+      "countryName": "Somalia "
+    },
+    {
+      "countryCode": 243,
+      "countryName": "South Africa "
+    },
+    {
+      "countryCode": 193,
+      "countryName": "South Korea"
+    },
+    {
+      "countryCode": 244,
+      "countryName": "Spain "
+    },
+    {
+      "countryCode": 245,
+      "countryName": "Sri Lanka "
+    },
+    {
+      "countryCode": 246,
+      "countryName": "Sudan "
+    },
+    {
+      "countryCode": 247,
+      "countryName": "Suriname "
+    },
+    {
+      "countryCode": 248,
+      "countryName": "Swaziland "
+    },
+    {
+      "countryCode": 249,
+      "countryName": "Sweden "
+    },
+    {
+      "countryCode": 250,
+      "countryName": "Switzerland "
+    },
+    {
+      "countryCode": 251,
+      "countryName": "Syria "
+    },
+    {
+      "countryCode": 252,
+      "countryName": "Taiwan "
+    },
+    {
+      "countryCode": 253,
+      "countryName": "Tajikistan "
+    },
+    {
+      "countryCode": 254,
+      "countryName": "Tanzania "
+    },
+    {
+      "countryCode": 255,
+      "countryName": "Thailand "
+    },
+    {
+      "countryCode": 256,
+      "countryName": "Togo "
+    },
+    {
+      "countryCode": 257,
+      "countryName": "Trinidad And Tobago  "
+    },
+    {
+      "countryCode": 258,
+      "countryName": "Tunisia "
+    },
+    {
+      "countryCode": 259,
+      "countryName": "Turkey "
+    },
+    {
+      "countryCode": 260,
+      "countryName": "Turkmenistan "
+    },
+    {
+      "countryCode": 261,
+      "countryName": "Tuvali "
+    },
+    {
+      "countryCode": 262,
+      "countryName": "Uganda "
+    },
+    {
+      "countryCode": 263,
+      "countryName": "Ukraine "
+    },
+    {
+      "countryCode": 264,
+      "countryName": "United Arab Emirates (Uae) "
+    },
+    {
+      "countryCode": 265,
+      "countryName": "United Kingdom (Uk) "
+    },
+    {
+      "countryCode": 266,
+      "countryName": "United States Of America (Usa) "
+    },
+    {
+      "countryCode": 267,
+      "countryName": "Uruguay "
+    },
+    {
+      "countryCode": 268,
+      "countryName": "Uzbekistan "
+    },
+    {
+      "countryCode": 269,
+      "countryName": "Vanuata "
+    },
+    {
+      "countryCode": 270,
+      "countryName": "Vatican City "
+    },
+    {
+      "countryCode": 271,
+      "countryName": "Venezuela "
+    },
+    {
+      "countryCode": 272,
+      "countryName": "Vietnam "
+    },
+    {
+      "countryCode": 273,
+      "countryName": "Wales "
+    },
+    {
+      "countryCode": 274,
+      "countryName": "Western Samoa "
+    },
+    {
+      "countryCode": 275,
+      "countryName": "Yemen "
+    },
+    {
+      "countryCode": 276,
+      "countryName": "Yugoslavia "
+    },
+    {
+      "countryCode": 277,
+      "countryName": "Zaire "
+    },
+    {
+      "countryCode": 278,
+      "countryName": "Zambia "
+    },
+    {
+      "countryCode": 279,
+      "countryName": "Zimbabwe "
+    }
+  ],
+  "state":[
+    {
+      "stateCode": 10,
+      "stateName": "Andaman and Nicobar"
+    },
+    {
+      "stateCode": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "stateCode": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "stateCode": 13,
+      "stateName": "Assam"
+    },
+    {
+      "stateCode": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "stateCode": 15,
+      "stateName": "Chandigarh"
+    },
+    {
+      "stateCode": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "stateCode": 17,
+      "stateName": "Dadra and Nagar Haveli"
+    },
+    {
+      "stateCode": 18,
+      "stateName": "Daman and Diu"
+    },
+    {
+      "stateCode": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "stateCode": 20,
+      "stateName": "Goa"
+    },
+    {
+      "stateCode": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "stateCode": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "stateCode": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "stateCode": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "stateCode": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "stateCode": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "stateCode": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "stateCode": 28,
+      "stateName": "Lakshdweep"
+    },
+    {
+      "stateCode": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "stateCode": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "stateCode": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "stateCode": 32,
+      "stateName": "Meghalaya"
+    },
+    {
+      "stateCode": 33,
+      "stateName": "Mizoram"
+    },
+    {
+      "stateCode": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "stateCode": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "stateCode": 36,
+      "stateName": "Puducherry"
+    },
+    {
+      "stateCode": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "stateCode": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "stateCode": 39,
+      "stateName": "Sikkim"
+    },
+    {
+      "stateCode": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "stateCode": 41,
+      "stateName": "Tripura"
+    },
+    {
+      "stateCode": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "stateCode": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "stateCode": 44,
+      "stateName": "West Bengal"
+    }
+  ],
+  "district":[
+    {
+      "distID": 10,
+      "distName": "North Andaman",
+      "stateId": 10,
+      "stateName": "Andaman and Nicobar"
+    },
+    {
+      "distID": 11,
+      "distName": "South Andaman",
+      "stateId": 10,
+      "stateName": "Andaman and Nicobar"
+    },
+    {
+      "distID": 12,
+      "distName": "Nicobar",
+      "stateId": 10,
+      "stateName": "Andaman and Nicobar"
+    },
+    {
+      "distID": 10,
+      "distName": "Adilabad",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 11,
+      "distName": "Anantapur",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 12,
+      "distName": "Chittoor",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 13,
+      "distName": "East Godavari",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 14,
+      "distName": "Guntur",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 15,
+      "distName": "Hyderabad",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 16,
+      "distName": "Karimnagar",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 17,
+      "distName": "Khammam",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 18,
+      "distName": "Krishna",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 19,
+      "distName": "Kurnool",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 20,
+      "distName": "Mahbubnagar",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 21,
+      "distName": "Medak",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 22,
+      "distName": "Nalgonda",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 23,
+      "distName": "Nizamabad",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 24,
+      "distName": "Prakasam",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 25,
+      "distName": "Ranga Reddy",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 26,
+      "distName": "Srikakulam",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 27,
+      "distName": "Sri Potti Sri Ramulu Nellore",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 29,
+      "distName": "Vizianagaram",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 30,
+      "distName": "Warangal",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 31,
+      "distName": "West Godavari",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 32,
+      "distName": "Cudappah",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 11,
+      "stateName": "Andhra Pradesh"
+    },
+    {
+      "distID": 10,
+      "distName": "Anjaw",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 11,
+      "distName": "Changlang",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 12,
+      "distName": "East Siang",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 13,
+      "distName": "East Kameng",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 14,
+      "distName": "Kurung Kumey",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 15,
+      "distName": "Lohit",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 16,
+      "distName": "Lower Dibang Valley",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 17,
+      "distName": "Lower Subansiri",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 18,
+      "distName": "Papum Pare",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 19,
+      "distName": "Tawang",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 20,
+      "distName": "Tirap",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 21,
+      "distName": "Dibang Valley",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 22,
+      "distName": "Upper Siang",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 23,
+      "distName": "Upper Subansiri",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 24,
+      "distName": "West Kameng",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 25,
+      "distName": "West Siang",
+      "stateId": 12,
+      "stateName": "Arunachal Pradesh"
+    },
+    {
+      "distID": 10,
+      "distName": "Baksa",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 11,
+      "distName": "Barpeta",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 12,
+      "distName": "Bongaigaon",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 25,
+      "distName": "Kamrup Metropolitan",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 26,
+      "distName": "Karbi Anglong",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 27,
+      "distName": "Karimganj",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 29,
+      "distName": "Lakhimpur",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 30,
+      "distName": "Morigaon",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 31,
+      "distName": "Nagaon",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 32,
+      "distName": "Nalbari",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 33,
+      "distName": "Sivasagar",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 34,
+      "distName": "Sonitpur",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 35,
+      "distName": "Tinsukia",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 36,
+      "distName": "Udalguri",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 13,
+      "distName": "Cachar",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 14,
+      "distName": "Chirang",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 15,
+      "distName": "Darrang",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 16,
+      "distName": "Dhemaji",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 17,
+      "distName": "Dima Hasao",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 18,
+      "distName": "Dhubri",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 19,
+      "distName": "Dibrugarh",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 20,
+      "distName": "Goalpara",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 21,
+      "distName": "Golaghat",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 22,
+      "distName": "Hailakandi",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 23,
+      "distName": "Jorhat",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 24,
+      "distName": "Kamrup",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 13,
+      "stateName": "Assam"
+    },
+    {
+      "distID": 10,
+      "distName": "Araria",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 11,
+      "distName": "Arwal",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 12,
+      "distName": "Aurangabad",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 13,
+      "distName": "Banka",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 14,
+      "distName": "Begusarai",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 15,
+      "distName": "Bhagalpur",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 16,
+      "distName": "Bhojpur",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 17,
+      "distName": "Buxar",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 18,
+      "distName": "Darbhanga",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 19,
+      "distName": "East Champaran",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 20,
+      "distName": "Gaya",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 21,
+      "distName": "Gopalganj",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 22,
+      "distName": "Jamui",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 23,
+      "distName": "Jehanabad",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 24,
+      "distName": "Kaimur",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 25,
+      "distName": "Katihar",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 26,
+      "distName": "Khagaria",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 27,
+      "distName": "Kishanganj",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 29,
+      "distName": "Madhepura",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 30,
+      "distName": "Madhubani",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 31,
+      "distName": "Munger",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 32,
+      "distName": "Muzaffarpur",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 33,
+      "distName": "Nalanda",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 34,
+      "distName": "Nawada",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 35,
+      "distName": "Patna",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 36,
+      "distName": "Purnia",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 37,
+      "distName": "Rohtas",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 38,
+      "distName": "Saharsa",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 39,
+      "distName": "Samastipur",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 40,
+      "distName": "Saran",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 41,
+      "distName": "Sheikhpura",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 42,
+      "distName": "Sheohar",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 43,
+      "distName": "Sitamarhi",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 44,
+      "distName": "Siwan",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 45,
+      "distName": "Supaul",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 14,
+      "stateName": "Bihar"
+    },
+    {
+      "distID": 10,
+      "distName": "Chandigarh",
+      "stateId": 15,
+      "stateName": "Chandigarh"
+    },
+    {
+      "distID": 10,
+      "distName": "Bastar",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 11,
+      "distName": "Bijapur",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 12,
+      "distName": "Bilaspur",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 13,
+      "distName": "Dantewada",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 14,
+      "distName": "Dhamtari",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 15,
+      "distName": "Durg",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 16,
+      "distName": "Jashpur",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 17,
+      "distName": "Janjgir-Champa",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 18,
+      "distName": "Korba",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 19,
+      "distName": "Koriya",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 20,
+      "distName": "Kanker",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 21,
+      "distName": "Kabirdham",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 22,
+      "distName": "Mahasamund",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 23,
+      "distName": "Narayanpur",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 24,
+      "distName": "Raigarh",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 25,
+      "distName": "Rajnandgaon",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 26,
+      "distName": "Raipur",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 27,
+      "distName": "Surguja",
+      "stateId": 16,
+      "stateName": "Chhattisgarh"
+    },
+    {
+      "distID": 10,
+      "distName": "Dadra and Nagar Haveli",
+      "stateId": 17,
+      "stateName": "Dadra and Nagar Haveli"
+    },
+    {
+      "distID": 10,
+      "distName": "Daman",
+      "stateId": 18,
+      "stateName": "Daman and Diu"
+    },
+    {
+      "distID": 11,
+      "distName": "Diu",
+      "stateId": 18,
+      "stateName": "Daman and Diu"
+    },
+    {
+      "distID": 10,
+      "distName": "Central Delhi",
+      "stateId": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "distID": 11,
+      "distName": "East Delhi",
+      "stateId": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "distID": 12,
+      "distName": "New Delhi",
+      "stateId": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "distID": 13,
+      "distName": "North Delhi",
+      "stateId": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "distID": 14,
+      "distName": "North East Delhi",
+      "stateId": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "distID": 15,
+      "distName": "North West Delhi",
+      "stateId": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "distID": 16,
+      "distName": "South Delhi",
+      "stateId": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "distID": 17,
+      "distName": "South West Delhi",
+      "stateId": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "distID": 18,
+      "distName": "West Delhi",
+      "stateId": 19,
+      "stateName": "Delhi"
+    },
+    {
+      "distID": 10,
+      "distName": "North Goa",
+      "stateId": 20,
+      "stateName": "Goa"
+    },
+    {
+      "distID": 11,
+      "distName": "South Goa",
+      "stateId": 20,
+      "stateName": "Goa"
+    },
+    {
+      "distID": 10,
+      "distName": "Ahmedabad",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 11,
+      "distName": "Amreli district",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 12,
+      "distName": "Anand",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 13,
+      "distName": "Banaskantha",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 14,
+      "distName": "Bharuch",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 15,
+      "distName": "Bhavnagar",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 16,
+      "distName": "Dahod",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 17,
+      "distName": "The Dangs",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 18,
+      "distName": "Gandhinagar",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 19,
+      "distName": "Jamnagar",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 20,
+      "distName": "Junagadh",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 21,
+      "distName": "Kutch",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 22,
+      "distName": "Kheda",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 23,
+      "distName": "Mehsana",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 24,
+      "distName": "Narmada",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 25,
+      "distName": "Navsari",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 26,
+      "distName": "Patan",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 27,
+      "distName": "Panchmahal",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 29,
+      "distName": "Rajkot",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 30,
+      "distName": "Sabarkantha",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 31,
+      "distName": "Surendranagar",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 32,
+      "distName": "Surat",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 33,
+      "distName": "Tapi",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 34,
+      "distName": "Vadodara",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 35,
+      "distName": "Valsad",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 21,
+      "stateName": "Gujarat"
+    },
+    {
+      "distID": 10,
+      "distName": "Ambala",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 11,
+      "distName": "Bhiwani",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 12,
+      "distName": "Faridabad",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 13,
+      "distName": "Fatehabad",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 14,
+      "distName": "Gurgaon",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 15,
+      "distName": "Hissar",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 16,
+      "distName": "Jhajjar",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 17,
+      "distName": "Jind",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 18,
+      "distName": "Karnal",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 19,
+      "distName": "Kaithal",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 20,
+      "distName": "Kurukshetra",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 21,
+      "distName": "Mahendragarh",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 22,
+      "distName": "Mewat",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 23,
+      "distName": "Palwal",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 24,
+      "distName": "Panchkula",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 25,
+      "distName": "Panipat",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 26,
+      "distName": "Rewari",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 27,
+      "distName": "Rohtak",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 29,
+      "distName": "Sonipat",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 30,
+      "distName": "Yamuna Nagar",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 31,
+      "distName": "Sirsa ",
+      "stateId": 22,
+      "stateName": "Haryana"
+    },
+    {
+      "distID": 10,
+      "distName": "Bilaspur",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 11,
+      "distName": "Chamba",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 12,
+      "distName": "Hamirpur",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 13,
+      "distName": "Kangra",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 14,
+      "distName": "Kinnaur",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 15,
+      "distName": "Kullu",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 16,
+      "distName": "Lahaul and Spiti",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 17,
+      "distName": "Mandi",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 18,
+      "distName": "Shimla",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 19,
+      "distName": "Sirmaur",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 20,
+      "distName": "Solan",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 21,
+      "distName": "Una",
+      "stateId": 23,
+      "stateName": "Himachal Pradesh"
+    },
+    {
+      "distID": 10,
+      "distName": "Anantnag",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 11,
+      "distName": "Badgam",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 12,
+      "distName": "Bandipora",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 13,
+      "distName": "Baramulla",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 14,
+      "distName": "Doda",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 15,
+      "distName": "Ganderbal",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 16,
+      "distName": "Jammu",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 17,
+      "distName": "Kargil",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 18,
+      "distName": "Kathua",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 19,
+      "distName": "Kishtwar",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 20,
+      "distName": "Kupwara",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 21,
+      "distName": "Kulgam",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 22,
+      "distName": "Leh",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 23,
+      "distName": "Poonch",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 24,
+      "distName": "Pulwama",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 25,
+      "distName": "Rajouri",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 26,
+      "distName": "Ramban",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 27,
+      "distName": "Reasi",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 29,
+      "distName": "Shopian",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 30,
+      "distName": "Srinagar",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 31,
+      "distName": "Udhampur",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 24,
+      "stateName": "Jammu and Kashmir"
+    },
+    {
+      "distID": 10,
+      "distName": "Bokaro",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 11,
+      "distName": "Chatra",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 12,
+      "distName": "Deoghar",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 13,
+      "distName": "Dhanbad",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 14,
+      "distName": "Dumka",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 15,
+      "distName": "East Singhbhum",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 16,
+      "distName": "Garhwa",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 17,
+      "distName": "Giridih",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 18,
+      "distName": "Godda",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 19,
+      "distName": "Gumla",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 20,
+      "distName": "Hazaribag",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 21,
+      "distName": "Jamtara",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 22,
+      "distName": "Khunti",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 23,
+      "distName": "Koderma",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 24,
+      "distName": "Latehar",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 25,
+      "distName": "Lohardaga",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 26,
+      "distName": "Pakur",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 27,
+      "distName": "Palamu",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 29,
+      "distName": "Ranchi",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 30,
+      "distName": "Sahibganj",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 31,
+      "distName": "Seraikela Kharsawan",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 32,
+      "distName": "Simdega",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 33,
+      "distName": "West Singhbhum",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 25,
+      "stateName": "Jharkhand"
+    },
+    {
+      "distID": 10,
+      "distName": "Bagalkot",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 11,
+      "distName": "Bangalore Rural",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 12,
+      "distName": "Bangalore Urban",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 13,
+      "distName": "Belgaum",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 14,
+      "distName": "Bellary",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 15,
+      "distName": "Bidar",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 16,
+      "distName": "Bijapur",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 17,
+      "distName": "Chamarajnagar",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 18,
+      "distName": "Chikkamagaluru",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 19,
+      "distName": "Chikkaballapur",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 20,
+      "distName": "Chitradurga",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 21,
+      "distName": "Davanagere",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 22,
+      "distName": "Dharwad",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 23,
+      "distName": "Dakshina Kannada",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 24,
+      "distName": "Gadag",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 25,
+      "distName": "Gulbarga",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 26,
+      "distName": "Hassan",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 27,
+      "distName": "Haveri district",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 29,
+      "distName": "Kolar",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 30,
+      "distName": "Koppal",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 31,
+      "distName": "Mandya",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 32,
+      "distName": "Mysore",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 33,
+      "distName": "Raichur",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 34,
+      "distName": "Shimoga",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 35,
+      "distName": "Tumkur",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 36,
+      "distName": "Udupi",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 37,
+      "distName": "Uttara Kannada",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 38,
+      "distName": "Ramanagara",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 39,
+      "distName": "Yadgir",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 26,
+      "stateName": "Karnataka"
+    },
+    {
+      "distID": 10,
+      "distName": "Alappuzha",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 11,
+      "distName": "Ernakulam",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 12,
+      "distName": "Idukki",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 13,
+      "distName": "Kannur",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 14,
+      "distName": "Kasaragod",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 15,
+      "distName": "Kollam",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 16,
+      "distName": "Kottayam",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 17,
+      "distName": "Kozhikode",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 18,
+      "distName": "Malappuram",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 19,
+      "distName": "Palakkad",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 20,
+      "distName": "Pathanamthitta",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 21,
+      "distName": "Thrissur",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 22,
+      "distName": "Thiruvananthapuram",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 23,
+      "distName": "Wayanad",
+      "stateId": 27,
+      "stateName": "Kerala"
+    },
+    {
+      "distID": 10,
+      "distName": "Lakshadweep",
+      "stateId": 28,
+      "stateName": "Lakshdweep"
+    },
+    {
+      "distID": 10,
+      "distName": "Agar",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 11,
+      "distName": "Alirajpur",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 12,
+      "distName": "Anuppur",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 13,
+      "distName": "Ashok Nagar",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 14,
+      "distName": "Balaghat",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 15,
+      "distName": "Barwani",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 16,
+      "distName": "Betul",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 17,
+      "distName": "Bhind",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 18,
+      "distName": "Bhopal",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 19,
+      "distName": "Burhanpur",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 20,
+      "distName": "Chhatarpur",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 21,
+      "distName": "Chhindwara",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 22,
+      "distName": "Damoh",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 23,
+      "distName": "Datia",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 24,
+      "distName": "Dewas",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 25,
+      "distName": "Dhar",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 26,
+      "distName": "Dindori",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 27,
+      "distName": "Guna",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 29,
+      "distName": "Harda",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 30,
+      "distName": "Hoshangabad",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 31,
+      "distName": "Indore",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 32,
+      "distName": "Jabalpur",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 33,
+      "distName": "Jhabua",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 34,
+      "distName": "Katni",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 35,
+      "distName": "Khandwa (East Nimar)",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 36,
+      "distName": "Khargone (West Nimar)",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 37,
+      "distName": "Mandla",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 38,
+      "distName": "Mandsaur",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 39,
+      "distName": "Morena",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 40,
+      "distName": "Narsinghpur",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 41,
+      "distName": "Neemuch",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 42,
+      "distName": "Panna",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 43,
+      "distName": "Raisen",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 44,
+      "distName": "Rajgarh",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 45,
+      "distName": "Ratlam",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 46,
+      "distName": "Rewa",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 47,
+      "distName": "Sagar",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 48,
+      "distName": "Satna",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 49,
+      "distName": "Sehore",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 50,
+      "distName": "Seoni",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 51,
+      "distName": "Shahdol",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 52,
+      "distName": "Shajapur",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 53,
+      "distName": "Sheopur",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 54,
+      "distName": "Shivpuri",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 55,
+      "distName": "Sidhi",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 56,
+      "distName": "Singrauli",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 57,
+      "distName": "Tikamgarh",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 58,
+      "distName": "Ujjain",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 59,
+      "distName": "Umaria",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 60,
+      "distName": "Vidisha",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 29,
+      "stateName": "Madhya Pradesh"
+    },
+    {
+      "distID": 10,
+      "distName": "Ahmednagar",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 11,
+      "distName": "Akola",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 12,
+      "distName": "Amravati",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 13,
+      "distName": "Aurangabad",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 14,
+      "distName": "Beed",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 15,
+      "distName": "Bhandara",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 16,
+      "distName": "Buldhana",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 17,
+      "distName": "Chandrapur",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 18,
+      "distName": "Dhule",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 19,
+      "distName": "Gadchiroli",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 20,
+      "distName": "Gondia",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 21,
+      "distName": "Hingoli",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 22,
+      "distName": "Jalgaon",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 23,
+      "distName": "Jalna",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 24,
+      "distName": "Kolhapur",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 25,
+      "distName": "Latur",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 26,
+      "distName": "Mumbai City",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 27,
+      "distName": "Mumbai suburban",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 29,
+      "distName": "Nandurbar",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 30,
+      "distName": "Nagpur",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 31,
+      "distName": "Nashik",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 32,
+      "distName": "Osmanabad",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 33,
+      "distName": "Parbhani",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 34,
+      "distName": "Pune",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 35,
+      "distName": "Raigad",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 36,
+      "distName": "Ratnagiri",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 37,
+      "distName": "Sangli",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 38,
+      "distName": "Satara",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 39,
+      "distName": "Sindhudurg",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 40,
+      "distName": "Solapur",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 41,
+      "distName": "Thane",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 42,
+      "distName": "Wardha",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 43,
+      "distName": "Washim",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 44,
+      "distName": "Yavatmal",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 30,
+      "stateName": "Maharashtra"
+    },
+    {
+      "distID": 10,
+      "distName": "Bishnupur",
+      "stateId": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "distID": 11,
+      "distName": "Churachandpur",
+      "stateId": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "distID": 12,
+      "distName": "Chandel",
+      "stateId": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "distID": 13,
+      "distName": "Imphal East",
+      "stateId": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "distID": 14,
+      "distName": "Senapati",
+      "stateId": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "distID": 15,
+      "distName": "Tamenglong",
+      "stateId": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "distID": 16,
+      "distName": "Thoubal",
+      "stateId": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "distID": 17,
+      "distName": "Ukhrul",
+      "stateId": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "distID": 18,
+      "distName": "Imphal West",
+      "stateId": 31,
+      "stateName": "Manipur"
+    },
+    {
+      "distID": 10,
+      "distName": "East Garo Hills",
+      "stateId": 32,
+      "stateName": "Meghalaya"
+    },
+    {
+      "distID": 11,
+      "distName": "East Khasi Hills",
+      "stateId": 32,
+      "stateName": "Meghalaya"
+    },
+    {
+      "distID": 12,
+      "distName": "Jaintia Hills",
+      "stateId": 32,
+      "stateName": "Meghalaya"
+    },
+    {
+      "distID": 13,
+      "distName": "Ri Bhoi",
+      "stateId": 32,
+      "stateName": "Meghalaya"
+    },
+    {
+      "distID": 14,
+      "distName": "South Garo Hills",
+      "stateId": 32,
+      "stateName": "Meghalaya"
+    },
+    {
+      "distID": 15,
+      "distName": "West Garo Hills",
+      "stateId": 32,
+      "stateName": "Meghalaya"
+    },
+    {
+      "distID": 16,
+      "distName": "West Khasi Hills",
+      "stateId": 32,
+      "stateName": "Meghalaya"
+    },
+    {
+      "distID": 10,
+      "distName": "Aizawl",
+      "stateId": 33,
+      "stateName": "Mizoram"
+    },
+    {
+      "distID": 11,
+      "distName": "Champhai",
+      "stateId": 33,
+      "stateName": "Mizoram"
+    },
+    {
+      "distID": 12,
+      "distName": "Kolasib",
+      "stateId": 33,
+      "stateName": "Mizoram"
+    },
+    {
+      "distID": 13,
+      "distName": "Lawngtlai",
+      "stateId": 33,
+      "stateName": "Mizoram"
+    },
+    {
+      "distID": 14,
+      "distName": "Lunglei",
+      "stateId": 33,
+      "stateName": "Mizoram"
+    },
+    {
+      "distID": 15,
+      "distName": "Mamit",
+      "stateId": 33,
+      "stateName": "Mizoram"
+    },
+    {
+      "distID": 16,
+      "distName": "Saiha",
+      "stateId": 33,
+      "stateName": "Mizoram"
+    },
+    {
+      "distID": 17,
+      "distName": "Serchhip",
+      "stateId": 33,
+      "stateName": "Mizoram"
+    },
+    {
+      "distID": 10,
+      "distName": "Dimapur",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 11,
+      "distName": "Kiphire",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 12,
+      "distName": "Kohima",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 13,
+      "distName": "Longleng",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 14,
+      "distName": "Mokokchung",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 15,
+      "distName": "Mon",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 16,
+      "distName": "Peren",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 17,
+      "distName": "Phek",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 18,
+      "distName": "Tuensang",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 19,
+      "distName": "Wokha",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 20,
+      "distName": "Zunheboto",
+      "stateId": 34,
+      "stateName": "Nagaland"
+    },
+    {
+      "distID": 10,
+      "distName": "Angul",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 11,
+      "distName": "Boudh (Bauda)",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 12,
+      "distName": "Bhadrak",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 13,
+      "distName": "Balangir",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 14,
+      "distName": "Bargarh (Baragarh)",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 15,
+      "distName": "Balasore",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 16,
+      "distName": "Cuttack",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 17,
+      "distName": "Debagarh (Deogarh)",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 18,
+      "distName": "Dhenkanal",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 19,
+      "distName": "Ganjam",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 20,
+      "distName": "Gajapati",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 21,
+      "distName": "Jharsuguda",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 22,
+      "distName": "Jajpur",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 23,
+      "distName": "Jagatsinghpur",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 24,
+      "distName": "Khordha",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 25,
+      "distName": "Kendujhar (Keonjhar)",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 26,
+      "distName": "Kalahandi",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 27,
+      "distName": "Kandhamal",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 29,
+      "distName": "Kendrapara",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 30,
+      "distName": "Malkangiri",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 31,
+      "distName": "Mayurbhanj",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 32,
+      "distName": "Nabarangpur",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 33,
+      "distName": "Nuapada",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 34,
+      "distName": "Nayagarh",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 35,
+      "distName": "Puri",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 36,
+      "distName": "Rayagada",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 37,
+      "distName": "Sambalpur",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 38,
+      "distName": "Subarnapur (Sonepur)",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 39,
+      "distName": "Sundergarh",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 35,
+      "stateName": "Odisha"
+    },
+    {
+      "distID": 10,
+      "distName": "Karaikal",
+      "stateId": 36,
+      "stateName": "Puducherry"
+    },
+    {
+      "distID": 11,
+      "distName": "Mahe",
+      "stateId": 36,
+      "stateName": "Puducherry"
+    },
+    {
+      "distID": 12,
+      "distName": "Pondicherry",
+      "stateId": 36,
+      "stateName": "Puducherry"
+    },
+    {
+      "distID": 13,
+      "distName": "Yanam",
+      "stateId": 36,
+      "stateName": "Puducherry"
+    },
+    {
+      "distID": 10,
+      "distName": "Amritsar",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 11,
+      "distName": "Barnala",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 12,
+      "distName": "Bathinda",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 13,
+      "distName": "Firozpur",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 14,
+      "distName": "Faridkot",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 15,
+      "distName": "Fatehgarh Sahib",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 17,
+      "distName": "Gurdaspur",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 18,
+      "distName": "Hoshiarpur",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 19,
+      "distName": "Jalandhar",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 20,
+      "distName": "Kapurthala",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 21,
+      "distName": "Ludhiana",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 23,
+      "distName": "Moga",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 24,
+      "distName": "Sri Muktsar Sahib",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 25,
+      "distName": "Pathankot",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 26,
+      "distName": "Patiala",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 27,
+      "distName": "Rupnagar",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 29,
+      "distName": "Sangrur",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 30,
+      "distName": "Shahid Bhagat Singh Nagar",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 31,
+      "distName": "Tarn Taran",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 22,
+      "distName": "Mansa",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 16,
+      "distName": "Fazilka",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 86,
+      "distName": "Chandigarh",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 87,
+      "distName": "Malerkotla",
+      "stateId": 37,
+      "stateName": "Punjab"
+    },
+    {
+      "distID": 10,
+      "distName": "Ajmer",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 11,
+      "distName": "Alwar",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 12,
+      "distName": "Bikaner",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 13,
+      "distName": "Barmer",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 14,
+      "distName": "Banswara",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 15,
+      "distName": "Bharatpur",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 16,
+      "distName": "Baran",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 17,
+      "distName": "Bundi",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 18,
+      "distName": "Bhilwara",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 19,
+      "distName": "Churu",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 20,
+      "distName": "Chittorgarh",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 21,
+      "distName": "Dausa",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 22,
+      "distName": "Dholpur",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 23,
+      "distName": "Dungapur",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 24,
+      "distName": "Ganganagar",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 25,
+      "distName": "Hanumangarh",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 26,
+      "distName": "Jhunjhunu",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 27,
+      "distName": "Jalore",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 29,
+      "distName": "Jaipur",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 30,
+      "distName": "Jaisalmer",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 31,
+      "distName": "Jhalawar",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 32,
+      "distName": "Karauli",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 33,
+      "distName": "Kota",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 34,
+      "distName": "Nagaur",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 35,
+      "distName": "Pali",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 36,
+      "distName": "Pratapgarh",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 37,
+      "distName": "Rajsamand",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 38,
+      "distName": "Sikar",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 39,
+      "distName": "Sawai Madhopur",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 40,
+      "distName": "Sirohi",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 41,
+      "distName": "Tonk",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 42,
+      "distName": "Udaipur",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 38,
+      "stateName": "Rajasthan"
+    },
+    {
+      "distID": 10,
+      "distName": "East Sikkim",
+      "stateId": 39,
+      "stateName": "Sikkim"
+    },
+    {
+      "distID": 11,
+      "distName": "North Sikkim",
+      "stateId": 39,
+      "stateName": "Sikkim"
+    },
+    {
+      "distID": 12,
+      "distName": "South Sikkim",
+      "stateId": 39,
+      "stateName": "Sikkim"
+    },
+    {
+      "distID": 13,
+      "distName": "West Sikkim",
+      "stateId": 39,
+      "stateName": "Sikkim"
+    },
+    {
+      "distID": 10,
+      "distName": "Ariyalur",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 11,
+      "distName": "Chennai",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 12,
+      "distName": "Coimbatore",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 13,
+      "distName": "Cuddalore",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 14,
+      "distName": "Dharmapuri",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 15,
+      "distName": "Dindigul",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 16,
+      "distName": "Erode",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 17,
+      "distName": "Kanchipuram",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 18,
+      "distName": "Kanyakumari",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 19,
+      "distName": "Karur",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 20,
+      "distName": "Krishnagiri",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 21,
+      "distName": "Madurai",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 22,
+      "distName": "Nagapattinam",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 23,
+      "distName": "Nilgiris",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 24,
+      "distName": "Namakkal",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 25,
+      "distName": "Perambalur",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 26,
+      "distName": "Pudukkottai",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 27,
+      "distName": "Ramanathapuram",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 29,
+      "distName": "Sivaganga",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 30,
+      "distName": "Tirupur",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 31,
+      "distName": "Tiruchirappalli",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 32,
+      "distName": "Theni",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 33,
+      "distName": "Tirunelveli",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 34,
+      "distName": "Thanjavur",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 35,
+      "distName": "Thoothukudi",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 36,
+      "distName": "Tiruvallur",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 37,
+      "distName": "Tiruvarur",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 38,
+      "distName": "Tiruvannamalai",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 39,
+      "distName": "Vellore",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 40,
+      "distName": "Viluppuram",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 41,
+      "distName": "Virudhunagar",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 40,
+      "stateName": "Tamil Nadu"
+    },
+    {
+      "distID": 10,
+      "distName": "Dhalai",
+      "stateId": 41,
+      "stateName": "Tripura"
+    },
+    {
+      "distID": 11,
+      "distName": "North Tripura",
+      "stateId": 41,
+      "stateName": "Tripura"
+    },
+    {
+      "distID": 12,
+      "distName": "South Tripura",
+      "stateId": 41,
+      "stateName": "Tripura"
+    },
+    {
+      "distID": 13,
+      "distName": "Khowai[7]",
+      "stateId": 41,
+      "stateName": "Tripura"
+    },
+    {
+      "distID": 14,
+      "distName": "West Tripura",
+      "stateId": 41,
+      "stateName": "Tripura"
+    },
+    {
+      "distID": 10,
+      "distName": "Agra",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 11,
+      "distName": "Aligarh",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 12,
+      "distName": "Allahabad",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 13,
+      "distName": "Ambedkar Nagar",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 14,
+      "distName": "Auraiya",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 15,
+      "distName": "Azamgarh",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 16,
+      "distName": "Bagpat",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 17,
+      "distName": "Bahraich",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 18,
+      "distName": "Ballia",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 19,
+      "distName": "Balrampur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 21,
+      "distName": "Barabanki",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 22,
+      "distName": "Bareilly",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 23,
+      "distName": "Basti",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 24,
+      "distName": "Bijnor",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 25,
+      "distName": "Budaun",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 26,
+      "distName": "Bulandshahr",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 27,
+      "distName": "Chandauli",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 29,
+      "distName": "Chitrakoot",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 30,
+      "distName": "Deoria",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 31,
+      "distName": "Etah",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 32,
+      "distName": "Etawah",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 33,
+      "distName": "Faizabad",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 34,
+      "distName": "Farrukhabad",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 35,
+      "distName": "Fatehpur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 36,
+      "distName": "Firozabad",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 37,
+      "distName": "Gautam Buddh Nagar",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 38,
+      "distName": "Ghaziabad",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 39,
+      "distName": "Ghazipur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 40,
+      "distName": "Gonda",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 41,
+      "distName": "Gorakhpur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 42,
+      "distName": "Hamirpur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 43,
+      "distName": "Hardoi",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 44,
+      "distName": "Hathras",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 45,
+      "distName": "Jalaun",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 46,
+      "distName": "Jaunpur district",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 47,
+      "distName": "Jhansi",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 48,
+      "distName": "Jyotiba Phule Nagar",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 49,
+      "distName": "Kannauj",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 50,
+      "distName": "Kanpur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 51,
+      "distName": "Kanshi Ram Nagar",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 52,
+      "distName": "Kaushambi",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 53,
+      "distName": "Kushinagar",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 54,
+      "distName": "Lakhimpur Kheri",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 55,
+      "distName": "Lalitpur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 56,
+      "distName": "Lucknow",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 57,
+      "distName": "Maharajganj",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 58,
+      "distName": "Mahoba",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 59,
+      "distName": "Mainpuri",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 60,
+      "distName": "Mathura",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 62,
+      "distName": "Meerut",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 63,
+      "distName": "Mirzapur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 64,
+      "distName": "Moradabad",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 65,
+      "distName": "Muzaffarnagar",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 66,
+      "distName": "Panchsheel Nagar district (Hapur)",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 67,
+      "distName": "Pilibhit",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 68,
+      "distName": "Pratapgarh",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 69,
+      "distName": "Raebareli",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 61,
+      "distName": "Mau",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 70,
+      "distName": "Ramabai Nagar (Kanpur Dehat)",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 71,
+      "distName": "Rampur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 72,
+      "distName": "Saharanpur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 73,
+      "distName": "Sant Kabir Nagar",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 74,
+      "distName": "Sant Ravidas Nagar",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 75,
+      "distName": "Shahjahanpur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 77,
+      "distName": "Shravasti",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 78,
+      "distName": "Siddharthnagar",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 79,
+      "distName": "Sitapur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 80,
+      "distName": "Sonbhadra",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 81,
+      "distName": "Sultanpur",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 82,
+      "distName": "Unnao",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 83,
+      "distName": "Varanasi",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 20,
+      "distName": "Banda",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 76,
+      "distName": "Shamli",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 42,
+      "stateName": "Uttar Pradesh"
+    },
+    {
+      "distID": 10,
+      "distName": "Almora",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 11,
+      "distName": "Bageshwar",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 12,
+      "distName": "Chamoli",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 13,
+      "distName": "Champawat",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 14,
+      "distName": "Dehradun",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 15,
+      "distName": "Haridwar",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 16,
+      "distName": "Nainital",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 17,
+      "distName": "Pauri Garhwal",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 18,
+      "distName": "Pithoragarh",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 19,
+      "distName": "Rudraprayag",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 20,
+      "distName": "Tehri Garhwal",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 21,
+      "distName": "Udham Singh Nagar",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 22,
+      "distName": "Uttarkashi",
+      "stateId": 43,
+      "stateName": "Uttarakhand"
+    },
+    {
+      "distID": 10,
+      "distName": "Bankura",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 11,
+      "distName": "Bardhaman",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 12,
+      "distName": "Birbhum",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 13,
+      "distName": "Cooch Behar",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 14,
+      "distName": "Dakshin Dinajpur",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 15,
+      "distName": "Darjeeling",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 16,
+      "distName": "Hooghly",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 17,
+      "distName": "Howrah",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 18,
+      "distName": "Jalpaiguri",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 19,
+      "distName": "Kolkata",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 20,
+      "distName": "Maldah",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 21,
+      "distName": "Murshidabad",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 22,
+      "distName": "Nadia",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 23,
+      "distName": "North 24 Parganas",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 24,
+      "distName": "Paschim Medinipur",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 25,
+      "distName": "Purba Medinipur",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 26,
+      "distName": "Purulia",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 27,
+      "distName": "South 24 Parganas",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    },
+    {
+      "distID": 28,
+      "distName": "SAS Nagar Mohali",
+      "stateId": 44,
+      "stateName": "West Bengal"
+    }
+  ],
+  "ageUnit":[
+    {
+      "id": "Yr ",
+      "value": "Years"
+    },
+    {
+      "id": "Mth ",
+      "value": "Months"
+    },
+    {
+      "id": "Wk ",
+      "value": "Weeks"
+    },
+    {
+      "id": "D ",
+      "value": "Days"
+    }
+  ],
+  "gender":[
+    {
+      "genderCode": "F",
+      "genderName": "Female"
+    },
+    {
+      "genderCode": "T",
+      "genderName": "Transgender"
+    },
+    {
+      "genderCode": "M",
+      "genderName": "Male"
+    }
+  ],
+  "labTestName":[
+    {
+      "labCode": 10003,
+      "testCode": 14029,
+      "labName": "Biochemistry",
+      "testName": "24 hours urinary protein"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14017,
+      "labName": "Biochemistry",
+      "testName": "ALBUMIN"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10008,
+      "labName": "Biochemistry",
+      "testName": "Alkaline Phosphatase"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14028,
+      "labName": "Biochemistry",
+      "testName": "Blood Group And RH Typing"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10023,
+      "labName": "Biochemistry",
+      "testName": "Blood Sugar Fasting"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10024,
+      "labName": "Biochemistry",
+      "testName": "Blood Sugar PP"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10025,
+      "labName": "Biochemistry",
+      "testName": "Blood Sugar Random"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10005,
+      "labName": "Biochemistry",
+      "testName": "Blood Urea"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10161,
+      "labName": "Biochemistry",
+      "testName": "Direct HDL"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10063,
+      "labName": "Biochemistry",
+      "testName": "HDL"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14042,
+      "labName": "Biochemistry",
+      "testName": "Hepatitis B surface antigen test (Rapid)"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14043,
+      "labName": "Biochemistry",
+      "testName": "Human Chorionic Gonadotropin(HCG)  (Urine test for pregnancy) (Rapid)"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10072,
+      "labName": "Biochemistry",
+      "testName": "LDL"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10075,
+      "labName": "Biochemistry",
+      "testName": "Lipid Profile"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 12252,
+      "labName": "Biochemistry",
+      "testName": "LIVER FUNCTION TEST"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 13869,
+      "labName": "Biochemistry",
+      "testName": "RENAL FUNCTION TESTS"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14041,
+      "labName": "Biochemistry",
+      "testName": "RPR VDRL test for syphilis(Rapid) "
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10108,
+      "labName": "Biochemistry",
+      "testName": "Serum Albumin"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10166,
+      "labName": "Biochemistry",
+      "testName": "Serum Bilirubin"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10028,
+      "labName": "Biochemistry",
+      "testName": "Serum Calcium"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 12294,
+      "labName": "Biochemistry",
+      "testName": "Serum Cholesterol "
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10114,
+      "labName": "Biochemistry",
+      "testName": "Serum Creatinine"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 12248,
+      "labName": "Biochemistry",
+      "testName": "Serum Total Protein"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 12295,
+      "labName": "Biochemistry",
+      "testName": "Serum Triglycerides"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 13809,
+      "labName": "Biochemistry",
+      "testName": "Serum Uric Acid"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10104,
+      "labName": "Biochemistry",
+      "testName": "SGOT"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14023,
+      "labName": "Biochemistry",
+      "testName": "SGPT"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10122,
+      "labName": "Biochemistry",
+      "testName": "Sputum for AFB (Acid Fast Bacilli)"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14031,
+      "labName": "Biochemistry",
+      "testName": "Stool for Occult Blood"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 13818,
+      "labName": "Biochemistry",
+      "testName": "Stool for Ova and Cyst"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14022,
+      "labName": "Biochemistry",
+      "testName": "TSH"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14045,
+      "labName": "Biochemistry",
+      "testName": "Uric Acid"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 14030,
+      "labName": "Biochemistry",
+      "testName": "Urine for Creatinine and Albumin to Creatinine ratio"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10143,
+      "labName": "Biochemistry",
+      "testName": "Urine For Microalbuminuria"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10151,
+      "labName": "Biochemistry",
+      "testName": "VLDL"
+    },
+    {
+      "labCode": 10003,
+      "testCode": 10105,
+      "labName": "Biochemistry"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10007,
+      "labName": "Haematology",
+      "testName": "ABSOLUTE EOSINOPHIL COUNT "
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13939,
+      "labName": "Haematology",
+      "testName": "Basophils "
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13930,
+      "labName": "Haematology",
+      "testName": "Bleeding Time BT"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10032,
+      "labName": "Haematology",
+      "testName": "Clotting Time"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 14027,
+      "labName": "Haematology",
+      "testName": "Coagulation Profile"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10002,
+      "labName": "Haematology",
+      "testName": "Complete Blood Count"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13806,
+      "labName": "Haematology",
+      "testName": "Coomb Test Indirect"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10045,
+      "labName": "Haematology",
+      "testName": "DLC"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13941,
+      "labName": "Haematology",
+      "testName": "Eosinophils"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10048,
+      "labName": "Haematology",
+      "testName": "ESR(Erythrocyte Sedimentation Rate)"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13870,
+      "labName": "Haematology",
+      "testName": "Haemogram"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13938,
+      "labName": "Haematology",
+      "testName": "HCT (Heptitis C Virus) \/ Hapititis A \/ E"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10058,
+      "labName": "Haematology",
+      "testName": "Hemoglobin"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13942,
+      "labName": "Haematology",
+      "testName": "Lymphocytes"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13804,
+      "labName": "Haematology",
+      "testName": "Malaria Parasite Slide Method(MP)"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10076,
+      "labName": "Haematology",
+      "testName": "MCH"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10077,
+      "labName": "Haematology",
+      "testName": "MCHC"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10078,
+      "labName": "Haematology",
+      "testName": "MCV"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13940,
+      "labName": "Haematology",
+      "testName": "Monocytes "
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13945,
+      "labName": "Haematology",
+      "testName": "MPV"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13943,
+      "labName": "Haematology",
+      "testName": "Neutrophils"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 14016,
+      "labName": "Haematology",
+      "testName": "P LCR (Platelet Large Cell Ratio)"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 14021,
+      "labName": "Haematology",
+      "testName": "Partial Thromboplastin Time(PTT)"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13944,
+      "labName": "Haematology",
+      "testName": "PBF (Peripheral Blood Film)"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 14015,
+      "labName": "Haematology",
+      "testName": "PCT (Proximal Convoluted Tubule)"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10820,
+      "labName": "Haematology",
+      "testName": "Platelet Count"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13931,
+      "labName": "Haematology",
+      "testName": "Platlet Distribution Width PDW"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10100,
+      "labName": "Haematology",
+      "testName": "RBC"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13934,
+      "labName": "Haematology",
+      "testName": "RDW CV (Red blood cell distribution width) \/  Red blood cell distribution width RDW CV "
+    },
+    {
+      "labCode": 10075,
+      "testCode": 13933,
+      "labName": "Haematology",
+      "testName": "RDW SD (Red blood cell distribution width) \/  Red Blood Cell Distribution Width Rdw Sd"
+    },
+    {
+      "labCode": 10075,
+      "testCode": 10132,
+      "labName": "Haematology",
+      "testName": "TLC\/WBC"
+    },
+    {
+      "labCode": 10017,
+      "testCode": 10319,
+      "labName": "Histopathology",
+      "testName": "CYTOLOGY"
+    },
+    {
+      "labCode": 10017,
+      "testCode": 10049,
+      "labName": "Histopathology",
+      "testName": "Fine Needle Aspiration Cystology (FNAC)"
+    },
+    {
+      "labCode": 10017,
+      "testCode": 10583,
+      "labName": "Histopathology",
+      "testName": "Fluid Cytology"
+    },
+    {
+      "labCode": 10017,
+      "testCode": 13926,
+      "labName": "Histopathology",
+      "testName": "Microscopic examination"
+    },
+    {
+      "labCode": 10017,
+      "testCode": 10088,
+      "labName": "Histopathology",
+      "testName": "PAP Smear"
+    },
+    {
+      "labCode": 10017,
+      "testCode": 14020,
+      "labName": "Histopathology"
+    },
+    {
+      "labCode": 10004,
+      "testCode": 13887,
+      "labName": "Microbiology",
+      "testName": "Contact surface Swabs"
+    },
+    {
+      "labCode": 10004,
+      "testCode": 10038,
+      "labName": "Microbiology",
+      "testName": "Culture Blood"
+    },
+    {
+      "labCode": 10004,
+      "testCode": 10039,
+      "labName": "Microbiology",
+      "testName": "Culture Pus"
+    },
+    {
+      "labCode": 10004,
+      "testCode": 13927,
+      "labName": "Microbiology",
+      "testName": "Culture Senstivity"
+    },
+    {
+      "labCode": 10004,
+      "testCode": 10040,
+      "labName": "Microbiology",
+      "testName": "Culture Urine"
+    },
+    {
+      "labCode": 10004,
+      "testCode": 11438,
+      "labName": "Microbiology",
+      "testName": "HIV Test"
+    },
+    {
+      "labCode": 10004,
+      "testCode": 12531,
+      "labName": "Microbiology",
+      "testName": "IgM Scrub Typhus"
+    },
+    {
+      "labCode": 10004,
+      "testCode": 10082,
+      "labName": "Microbiology",
+      "testName": "OTHER BODY FLUIDS"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13858,
+      "labName": "Pathology",
+      "testName": "ALBUMIN(Urine)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13913,
+      "labName": "Pathology",
+      "testName": "BLOOD(Stool)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13863,
+      "labName": "Pathology",
+      "testName": "CYSTALS CONSITTIUENTS"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13917,
+      "labName": "Pathology",
+      "testName": "EPITHELIAL CELLS(Stool)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13848,
+      "labName": "Pathology",
+      "testName": "EPITHELIAL CELLS(Urine)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13918,
+      "labName": "Pathology",
+      "testName": "FAT(Stool)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13916,
+      "labName": "Pathology",
+      "testName": "LEUCOCYTES(Stool)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13864,
+      "labName": "Pathology",
+      "testName": "LEUCOCYTES(Urine)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13912,
+      "labName": "Pathology",
+      "testName": "MUCOUS"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13876,
+      "labName": "Pathology",
+      "testName": "Other tests for Urine"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13914,
+      "labName": "Pathology",
+      "testName": "OVA and CYST"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13911,
+      "labName": "Pathology",
+      "testName": "PARASITES(Stool)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13865,
+      "labName": "Pathology",
+      "testName": "PARASITES(Urine)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13910,
+      "labName": "Pathology",
+      "testName": "PH(Stool)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13907,
+      "labName": "Pathology",
+      "testName": "QUANTITY(Stool)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13915,
+      "labName": "Pathology",
+      "testName": "RBC's(Stool)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13856,
+      "labName": "Pathology",
+      "testName": "REACTION(Urine)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13902,
+      "labName": "Pathology",
+      "testName": "SEMEN COUNT"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 10833,
+      "labName": "Pathology",
+      "testName": "Semen Examination"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13903,
+      "labName": "Pathology",
+      "testName": "SEMEN MOTILITY"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13908,
+      "labName": "Pathology",
+      "testName": "STOOL COLOR"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13896,
+      "labName": "Pathology",
+      "testName": "Stool Microscopic Examination"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13909,
+      "labName": "Pathology",
+      "testName": "STOOL ODOUR"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13895,
+      "labName": "Pathology",
+      "testName": "Stool Physical Examination"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13857,
+      "labName": "Pathology",
+      "testName": "SUGAR(Urine)"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13905,
+      "labName": "Pathology",
+      "testName": "UPT\/Urine For Pregnancy Test"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13855,
+      "labName": "Pathology",
+      "testName": "URINE APPEARANCE"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13892,
+      "labName": "Pathology",
+      "testName": "Urine Chemical examination"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13928,
+      "labName": "Pathology",
+      "testName": "URINE COLOR"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13906,
+      "labName": "Pathology",
+      "testName": "URINE FOR DOPE TEST"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13893,
+      "labName": "Pathology",
+      "testName": "Urine Microscopic Examination"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13877,
+      "labName": "Pathology",
+      "testName": "Urine Physical Examination"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13814,
+      "labName": "Pathology",
+      "testName": "Vaginal smear for spermatozoa"
+    },
+    {
+      "labCode": 10074,
+      "testCode": 13820,
+      "labName": "Pathology",
+      "testName": "Visual inspection Acetic Acid"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13924,
+      "labName": "Radiology",
+      "testName": "ANKLE ANTERO POSTERIOR"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13929,
+      "labName": "Radiology",
+      "testName": "ANKLE LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11072,
+      "labName": "Radiology",
+      "testName": "CERVICAL SPINE (L) OBLIQUE VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11070,
+      "labName": "Radiology",
+      "testName": "CERVICAL SPINE AP VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11071,
+      "labName": "Radiology",
+      "testName": "CERVICAL SPINE LATERAL VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11178,
+      "labName": "Radiology",
+      "testName": "CHEST (L) LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11180,
+      "labName": "Radiology",
+      "testName": "CHEST (L) OBLIQUE"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11181,
+      "labName": "Radiology",
+      "testName": "CHEST (R) OBLIQUE"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11177,
+      "labName": "Radiology",
+      "testName": "CHEST AP VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11176,
+      "labName": "Radiology",
+      "testName": "CHEST PA VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13946,
+      "labName": "Radiology",
+      "testName": "COCCYX ANTERO POSTERIOR"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11107,
+      "labName": "Radiology",
+      "testName": "COCCYX LATERAL VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14010,
+      "labName": "Radiology",
+      "testName": "DORSAL SPINE AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14011,
+      "labName": "Radiology",
+      "testName": "Dorsal Spine Lateral"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 11692,
+      "labName": "Radiology",
+      "testName": "ECG"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 10411,
+      "labName": "Radiology",
+      "testName": "ELBOW   AP\/LAT"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13967,
+      "labName": "Radiology",
+      "testName": "Elbow Lateral"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13964,
+      "labName": "Radiology",
+      "testName": "FEBULA LATERAL VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13965,
+      "labName": "Radiology",
+      "testName": "FEMUR LATERAL VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13966,
+      "labName": "Radiology",
+      "testName": "FIBULA LATERAL VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13960,
+      "labName": "Radiology",
+      "testName": "Foot AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13963,
+      "labName": "Radiology",
+      "testName": "FOOT LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13961,
+      "labName": "Radiology",
+      "testName": "FOOT OBLIQUE"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13957,
+      "labName": "Radiology",
+      "testName": "FOREARM AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13956,
+      "labName": "Radiology",
+      "testName": "FOREARM LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13958,
+      "labName": "Radiology",
+      "testName": "HAND AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13959,
+      "labName": "Radiology",
+      "testName": "HAND LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13955,
+      "labName": "Radiology",
+      "testName": "HIP AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13954,
+      "labName": "Radiology",
+      "testName": "Hip LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13953,
+      "labName": "Radiology",
+      "testName": "Humerus AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13952,
+      "labName": "Radiology",
+      "testName": "Humerus LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13948,
+      "labName": "Radiology",
+      "testName": "KNEE AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14012,
+      "labName": "Radiology",
+      "testName": "Knee Axial"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13947,
+      "labName": "Radiology",
+      "testName": "KNEE LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13949,
+      "labName": "Radiology",
+      "testName": "KNEE SKYLINE"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13950,
+      "labName": "Radiology",
+      "testName": "KNEE STANDING"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13951,
+      "labName": "Radiology",
+      "testName": "KNEE WEIGHT BEARING"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13968,
+      "labName": "Radiology",
+      "testName": "LANE VIEW FOR PITUITARY FOSSA"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14008,
+      "labName": "Radiology",
+      "testName": "LEG AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13969,
+      "labName": "Radiology",
+      "testName": "LEG LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14007,
+      "labName": "Radiology",
+      "testName": "LUMBAR SPINE AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14006,
+      "labName": "Radiology",
+      "testName": "LUMBER SPINE LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14005,
+      "labName": "Radiology",
+      "testName": "MANDIBLE AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14004,
+      "labName": "Radiology",
+      "testName": "MANDIBLE LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14003,
+      "labName": "Radiology",
+      "testName": "MANDIBLE OBLIQUE"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14002,
+      "labName": "Radiology",
+      "testName": "NASAL BONE LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14001,
+      "labName": "Radiology",
+      "testName": "NECK AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14000,
+      "labName": "Radiology",
+      "testName": "NECK LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13999,
+      "labName": "Radiology",
+      "testName": "OTHER X RAY"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13998,
+      "labName": "Radiology",
+      "testName": "PELVIS AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13997,
+      "labName": "Radiology",
+      "testName": "PELVIS LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13996,
+      "labName": "Radiology",
+      "testName": "PLAIN X RAY ABD"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14009,
+      "labName": "Radiology",
+      "testName": "PLANE XRAY ABD"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 10399,
+      "labName": "Radiology",
+      "testName": "PNS"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13993,
+      "labName": "Radiology",
+      "testName": "SACROILIAC JOINT  PRONE"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13992,
+      "labName": "Radiology",
+      "testName": "SACROILIAC JOINT  SPUN"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13994,
+      "labName": "Radiology",
+      "testName": "SACROILIAC JOINT OBLIQUE"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13990,
+      "labName": "Radiology",
+      "testName": "SHOULDER JOINT AXIAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13989,
+      "labName": "Radiology",
+      "testName": "SHOULDER JOINT TRANSTHORACIC"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13988,
+      "labName": "Radiology",
+      "testName": "SKULL AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13987,
+      "labName": "Radiology",
+      "testName": "SKULL LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13986,
+      "labName": "Radiology",
+      "testName": "SKULL PARANASAL SINUSES"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13985,
+      "labName": "Radiology",
+      "testName": "SKULL TOWNE VIEW"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13984,
+      "labName": "Radiology",
+      "testName": "SOFT TISSUE NECK AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13983,
+      "labName": "Radiology",
+      "testName": "SOFT TISSUE NECK LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13982,
+      "labName": "Radiology",
+      "testName": "TEMPOROMANDIBULAR JOINT AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13981,
+      "labName": "Radiology",
+      "testName": "TEMPOROMANDIBULAR JOINT LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13980,
+      "labName": "Radiology",
+      "testName": "TEMPOROMANDIBULAR JOINT OBLIQUE"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13979,
+      "labName": "Radiology",
+      "testName": "THIGH AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13978,
+      "labName": "Radiology",
+      "testName": "THIGH LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13975,
+      "labName": "Radiology",
+      "testName": "TIBA AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13974,
+      "labName": "Radiology",
+      "testName": "TIBA LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13972,
+      "labName": "Radiology",
+      "testName": "WRIST AP"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13973,
+      "labName": "Radiology",
+      "testName": "WRIST BALL CATCHER VIEW FOR SCAPHIOD"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13971,
+      "labName": "Radiology",
+      "testName": "WRIST LATERAL"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13970,
+      "labName": "Radiology",
+      "testName": "WRIST OBLIQUE FOR SCAPHOID"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 14013,
+      "labName": "Radiology",
+      "testName": "X RAY FOR TB DETECTION"
+    },
+    {
+      "labCode": 10077,
+      "testCode": 13923,
+      "labName": "Radiology",
+      "testName": "X Ray Other"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 13899,
+      "labName": "Serology",
+      "testName": "CRP"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 13976,
+      "labName": "Serology",
+      "testName": "Dengue Elisa(NS1Ag\/IgM)"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 13882,
+      "labName": "Serology",
+      "testName": "Dengue IgM MAC Elisa"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 13879,
+      "labName": "Serology",
+      "testName": "HAV Elisa"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 10060,
+      "labName": "Serology",
+      "testName": "HBsAg"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 13880,
+      "labName": "Serology",
+      "testName": "HCV (Anti HCV Elisa)"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 12542,
+      "labName": "Serology",
+      "testName": "Hepatitis C virus (HCV)"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 13881,
+      "labName": "Serology",
+      "testName": "HEV Elisa"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 13833,
+      "labName": "Serology",
+      "testName": "MALARIA RAPID TEST"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 11441,
+      "labName": "Serology",
+      "testName": "Measles IgM"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 11623,
+      "labName": "Serology",
+      "testName": "Montoux Test"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 11442,
+      "labName": "Serology",
+      "testName": "MUMPS (IgM) ELISA"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14044,
+      "labName": "Serology",
+      "testName": "RA factor (Quantitative)"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14018,
+      "labName": "Serology",
+      "testName": "RA Test"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14036,
+      "labName": "Serology",
+      "testName": "Urine test for Bilirubin"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14035,
+      "labName": "Serology",
+      "testName": "Urine test for Glucose"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14038,
+      "labName": "Serology",
+      "testName": "Urine test for Ketone"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14034,
+      "labName": "Serology",
+      "testName": "Urine test for Leukocyte Esterase"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14040,
+      "labName": "Serology",
+      "testName": "Urine test for Nitrite"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14032,
+      "labName": "Serology",
+      "testName": "Urine test for PH"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14039,
+      "labName": "Serology",
+      "testName": "Urine test for Protein"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14033,
+      "labName": "Serology",
+      "testName": "Urine test for Specific Gravity  "
+    },
+    {
+      "labCode": 10073,
+      "testCode": 14037,
+      "labName": "Serology",
+      "testName": "Urine test for Urobilinogen"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 13825,
+      "labName": "Serology",
+      "testName": "VDRL\/RPR"
+    },
+    {
+      "labCode": 10073,
+      "testCode": 13828,
+      "labName": "Serology",
+      "testName": "WIDAL"
+    }
+  ],
+  "drugDose":[
+    {
+      "hgnumDoseId": 1,
+      "hgstrDoseName": "One Tablet"
+    },
+    {
+      "hgnumDoseId": 2,
+      "hgstrDoseName": "Two Tablet"
+    },
+    {
+      "hgnumDoseId": 3,
+      "hgstrDoseName": "three tablet"
+    },
+    {
+      "hgnumDoseId": 4,
+      "hgstrDoseName": "One Tea Spoon"
+    },
+    {
+      "hgnumDoseId": 5,
+      "hgstrDoseName": "two spoon"
+    },
+    {
+      "hgnumDoseId": 6,
+      "hgstrDoseName": "1 bottel"
+    },
+    {
+      "hgnumDoseId": 7,
+      "hgstrDoseName": "1 capsule"
+    },
+    {
+      "hgnumDoseId": 8,
+      "hgstrDoseName": "one injection"
+    },
+    {
+      "hgnumDoseId": 9,
+      "hgstrDoseName": "2 capsule"
+    },
+    {
+      "hgnumDoseId": 12,
+      "hgstrDoseName": "1 Spoon"
+    },
+    {
+      "hgnumDoseId": 13,
+      "hgstrDoseName": "2 Spoon"
+    },
+    {
+      "hgnumDoseId": 14,
+      "hgstrDoseName": "One Tablet"
+    },
+    {
+      "hgnumDoseId": 15,
+      "hgstrDoseName": "OD"
+    },
+    {
+      "hgnumDoseId": 16,
+      "hgstrDoseName": "BD"
+    },
+    {
+      "hgnumDoseId": 17,
+      "hgstrDoseName": "BD"
+    },
+    {
+      "hgnumDoseId": 18,
+      "hgstrDoseName": "1 syringe"
+    }
+  ],
+  "drugList":[
+    {
+      "itemId": 10100005,
+      "drugName": "Albendazole Tab (400 mg) [118.1]"
+    },
+    {
+      "itemId": 10107089,
+      "drugName": "Allopurinol 300mg Tab [999]"
+    },
+    {
+      "itemId": 10100019,
+      "drugName": "Amlodipine Tab 5 mg [220.2]"
+    },
+    {
+      "itemId": 10100016,
+      "drugName": "Amoxycillin Syp 125 mg\/5 ml (60 ml Bottle) [54.3]"
+    },
+    {
+      "itemId": 10100023,
+      "drugName": "Ascorbic Acid Tab 500 mg [312.2]"
+    },
+    {
+      "itemId": 10100024,
+      "drugName": "Atenolol Tab 50mg [167.2]"
+    },
+    {
+      "itemId": 10107413,
+      "drugName": "Atorvastatin Ca 20mg, IP(coated) Tab [999]"
+    },
+    {
+      "itemId": 10100029,
+      "drugName": "Azithromycin Tab 500 mg [73.3]"
+    },
+    {
+      "itemId": 10107003,
+      "drugName": "Betamethasone 0.05 % IP Cream [999]"
+    },
+    {
+      "itemId": 10100031,
+      "drugName": "Betamethasone Sod. Phosphate,I.P Inj - 4 mg per 1 ml [242.1]"
+    },
+    {
+      "itemId": 10100032,
+      "drugName": "Betamethasone with Salisylic Acid Oint. (Each gram to contain Betamethasone Dipropionate 0.64 mg, Salisylic acid 30 mg) [337.1]"
+    },
+    {
+      "itemId": 10106752,
+      "drugName": "Bisacodyl tab 5mg [999]"
+    },
+    {
+      "itemId": 10100034,
+      "drugName": "Budesonide Respirator Solution (Budesonide 0.5mg\/2ml) [2.2]"
+    },
+    {
+      "itemId": 10107277,
+      "drugName": "C-19 Sodium Hypochloride solution [999]"
+    },
+    {
+      "itemId": 10100036,
+      "drugName": "Calcium (Calcium carbonate 1.25 gm equivalent to 500 mgs of elemental calcium , cholecalciferol (vit D-3 staboosed) 250 IU Tab [308.1]"
+    },
+    {
+      "itemId": 10107406,
+      "drugName": "Calcium Syrup 200mg\/5ml [999]"
+    },
+    {
+      "itemId": 10100038,
+      "drugName": "Carbamezapine Tab 200 mg [196.2]"
+    },
+    {
+      "itemId": 10100040,
+      "drugName": "Cefixime Tab 200 mg [58.2]"
+    },
+    {
+      "itemId": 10100042,
+      "drugName": "Cefpodoxime Tab 200 mg [62.3]"
+    },
+    {
+      "itemId": 10100052,
+      "drugName": "Cetrizine Syp 5mg\/5ml [37.2]"
+    },
+    {
+      "itemId": 10100055,
+      "drugName": "Chlorhexidine Gluconate Sol. 0.2 % [404.1]"
+    },
+    {
+      "itemId": 10107074,
+      "drugName": "Cholecalciferol 60000 IU [999]"
+    },
+    {
+      "itemId": 10106997,
+      "drugName": "Cinnarizine 75mg,IP (uncoated)Tab [999]"
+    },
+    {
+      "itemId": 10107040,
+      "drugName": "Ciprofloxacin 0.3 % Eye Drops [999]"
+    },
+    {
+      "itemId": 10100063,
+      "drugName": "Ciprofloxacin coated Tab 500mg [69.2]"
+    },
+    {
+      "itemId": 10100065,
+      "drugName": "Clobetasol 0.05 % + Salicysalic Acid 3 % v\/v Cream\/Ointment [339.1]"
+    },
+    {
+      "itemId": 10100071,
+      "drugName": "Clotrimazole Vaginal Pessaries 100 mg with Applicator [111.1]"
+    },
+    {
+      "itemId": 10100270,
+      "drugName": "Cotton wool absorbent I.P 500 gm pack [C9]"
+    },
+    {
+      "itemId": 10100075,
+      "drugName": "Cough Syrup: Each 5ml to contain Dextromethorphan HCL\/Hbr 10mg, Phenylephrine 5mg and CPM 2mg [189.1]"
+    },
+    {
+      "itemId": 10100077,
+      "drugName": "Dexamethasone 0.5mg Tab [257.1]"
+    },
+    {
+      "itemId": 10100076,
+      "drugName": "Dexamethasone Sodium Phosphate Inj 4mg\/ ml [257.2]"
+    },
+    {
+      "itemId": 10100085,
+      "drugName": "Diclofenac Sodium Inj 25mg\/ml [43.1]"
+    },
+    {
+      "itemId": 10100086,
+      "drugName": "Diclofenac Sodium Tab 50 mg [43.2]"
+    },
+    {
+      "itemId": 10100088,
+      "drugName": "Dicyclomine HCL Tab (10 mg) [371.1]"
+    },
+    {
+      "itemId": 10100089,
+      "drugName": "Dicyclomine oral IP 10 mg solution [789.38]"
+    },
+    {
+      "itemId": 10106762,
+      "drugName": "Disposable Examination Gloves latex free Size 7 [999999999]"
+    },
+    {
+      "itemId": 10100276,
+      "drugName": "Disposable face mask double layered. [C15]"
+    },
+    {
+      "itemId": 10107430,
+      "drugName": "Disposable Syringe without lock 10ml(18g) [999999]"
+    },
+    {
+      "itemId": 10107420,
+      "drugName": "Disposable Syringe without lock 2ml (24g) [999]"
+    },
+    {
+      "itemId": 10107428,
+      "drugName": "Disposable Syringe without lock 5ml (22g) [999999]"
+    },
+    {
+      "itemId": 10100090,
+      "drugName": "Domperidone Syp 5 mg \/ 5 ml [28.2]"
+    },
+    {
+      "itemId": 10100091,
+      "drugName": "Domperidone Tab 10 mg [28.1]"
+    },
+    {
+      "itemId": 10106564,
+      "drugName": "Doxycycline Cap 100mg HCL IP [999]"
+    },
+    {
+      "itemId": 10107135,
+      "drugName": "Drop Paracetamol 100mg\/ml with Dropper [999]"
+    },
+    {
+      "itemId": 10100284,
+      "drugName": "Face mask three layered [C23]"
+    },
+    {
+      "itemId": 10106672,
+      "drugName": "Framycetin Sulphate I.P 1 % w\/w 30gm [999]"
+    },
+    {
+      "itemId": 10100102,
+      "drugName": "Frusemide IP Inj 10mg\/ml [168.1]"
+    },
+    {
+      "itemId": 10100103,
+      "drugName": "Frusemide Tab 40 mg [168.2]"
+    },
+    {
+      "itemId": 10107005,
+      "drugName": "Gel Antacid [999]"
+    },
+    {
+      "itemId": 10107375,
+      "drugName": "Glimipride 1mg tab [999]"
+    },
+    {
+      "itemId": 10107373,
+      "drugName": "Hand Sanitizer Alcohol Based Unit Pack Size Bottle of 500 ml [999]"
+    },
+    {
+      "itemId": 10100120,
+      "drugName": "Hyocine Butyl Bromide Inj 20mg\/ml [372.1]"
+    },
+    {
+      "itemId": 10106623,
+      "drugName": "I.V Cannula Sterile Single Use 20g With Injection Valve Wings With Injection Port Cap [999]"
+    },
+    {
+      "itemId": 10107341,
+      "drugName": "Iron and Folic Acid large(red)-Dried Ferrous Sulphate IP-60 mg eq to ferrous iron folic 0.5 mg sugar coated [999]"
+    },
+    {
+      "itemId": 10100127,
+      "drugName": "Isosorbide Dinitrate Tab 10 mg [150.2]"
+    },
+    {
+      "itemId": 10107068,
+      "drugName": "Ivermectin 6mg tab [999]"
+    },
+    {
+      "itemId": 10106678,
+      "drugName": "Lactulose 3.335gm\/5ml Syrup [999]"
+    },
+    {
+      "itemId": 10100132,
+      "drugName": "Levo Cetrizine Tab 5 mg [166.1]"
+    },
+    {
+      "itemId": 10100141,
+      "drugName": "Losartan 50 mg + Hydrochlorthiazide 12.5mg Tab [142.1]"
+    },
+    {
+      "itemId": 10107006,
+      "drugName": "Lotion Calamine, IP [999]"
+    },
+    {
+      "itemId": 10100150,
+      "drugName": "Metformin 500mg Tab SR [179.1]"
+    },
+    {
+      "itemId": 10107088,
+      "drugName": "Montelukast 10mg+ Levocetrizine 5mg Tab [999]"
+    },
+    {
+      "itemId": 10100160,
+      "drugName": "Multivitamin Tab [263.2]"
+    },
+    {
+      "itemId": 10107171,
+      "drugName": "N-95 Mask [999999999]"
+    },
+    {
+      "itemId": 10100238,
+      "drugName": "Neosporin-h Ear Drop content - Polymyin b Sulphate USP 10000 units Neomycin Sulphate IP 3400 units Hydrocortisone IP 10 mg [123.126]"
+    },
+    {
+      "itemId": 10100293,
+      "drugName": "O.T. Cap Disposable (Surgeon) [C32]"
+    },
+    {
+      "itemId": 10100315,
+      "drugName": "Ointment Povidone 5 % w\/w USP [D6]"
+    },
+    {
+      "itemId": 10100175,
+      "drugName": "Ondensetron USP Inj 2 mg\/ml [29.2]"
+    },
+    {
+      "itemId": 10100177,
+      "drugName": "Ors Powder Who Formula With Citrate Salt 20.5 Gm Pouch [32.1]"
+    },
+    {
+      "itemId": 10107410,
+      "drugName": "Pantoprazole 40 mg tab [999]"
+    },
+    {
+      "itemId": 10107386,
+      "drugName": "Paracetamol 325mg + Diclofenac Sodium 50mg + Serratiopeptidase 10mg Tab [999]"
+    },
+    {
+      "itemId": 10100179,
+      "drugName": "Paracetamol Syp 125 mg\/5ml [41.5]"
+    },
+    {
+      "itemId": 10100182,
+      "drugName": "Paracetamol Tab (500 mg) [41.1]"
+    },
+    {
+      "itemId": 10107298,
+      "drugName": "Paracetamol tab 650mg [999]"
+    },
+    {
+      "itemId": 10107004,
+      "drugName": "Permethrin 5 % , IP Cream [999]"
+    },
+    {
+      "itemId": 10100185,
+      "drugName": "Pheniramine Maleate Inj 22.75 mg\/ml [40.2]"
+    },
+    {
+      "itemId": 10100190,
+      "drugName": "Phenytoin Sodium Tab 100 mg [191.1]"
+    },
+    {
+      "itemId": 10100199,
+      "drugName": "Prednisolone Tab 10mg [254.2]"
+    },
+    {
+      "itemId": 10100206,
+      "drugName": "Ranitidine Tab 150 mg [24.2]"
+    },
+    {
+      "itemId": 10100297,
+      "drugName": "Rolled Bandage - 15 cm x 4 mtr. [C36]"
+    },
+    {
+      "itemId": 10100300,
+      "drugName": "Rolled Bandage 7.5cm x 4mtr. [C39]"
+    },
+    {
+      "itemId": 10100211,
+      "drugName": "Salbutamol Syp 2mg \/ 5ml [184.3]"
+    },
+    {
+      "itemId": 10107165,
+      "drugName": "Shoe Cover [999]"
+    },
+    {
+      "itemId": 10107187,
+      "drugName": "Silk sutures 26mm, needle 3\/8 circle reverse cutting 75cm-90cm, Size:-3-0 [999]"
+    },
+    {
+      "itemId": 10107185,
+      "drugName": "Silk sutures 45mm, needle 3\/8 circle reverse cutting 75cm-90cm, Size:-1-0 [999999]"
+    },
+    {
+      "itemId": 10100216,
+      "drugName": "Silver Sulphadiazene 1 % w\/v cream [330.2330.3]"
+    },
+    {
+      "itemId": 10107387,
+      "drugName": "Solution Povidone Iodine 10% w\/v [999]"
+    },
+    {
+      "itemId": 10107380,
+      "drugName": "Telmisartan 40mg + Hydrochlorothiazide 12.5 mg tab [999]"
+    },
+    {
+      "itemId": 10106996,
+      "drugName": "Telmisartan 40mg Tab [999]"
+    },
+    {
+      "itemId": 10100222,
+      "drugName": "Tetanus Toxoid Inj (Adsorbed) [220.3]"
+    },
+    {
+      "itemId": 10106611,
+      "drugName": "Tranexamic Acid Tab 500 Mg [999]"
+    },
+    {
+      "itemId": 10100235,
+      "drugName": "Zinc Sulphate Dispersible Tab 20mg [33.2]"
+    }
+  ],
+  "drugFrequency":[
+    {
+      "frequencyId": 11,
+      "frequencyName": "Fortnightly"
+    },
+    {
+      "frequencyId": 12,
+      "frequencyName": "Twice a Day"
+    },
+    {
+      "frequencyId": 13,
+      "frequencyName": " Thrice a day"
+    },
+    {
+      "frequencyId": 14,
+      "frequencyName": "SOS"
+    },
+    {
+      "frequencyId": 15,
+      "frequencyName": "Four Times a Day"
+    },
+    {
+      "frequencyId": 16,
+      "frequencyName": "STAT"
+    },
+    {
+      "frequencyId": 17,
+      "frequencyName": "After Breakfast"
+    },
+    {
+      "frequencyId": 18,
+      "frequencyName": "After Dinner"
+    },
+    {
+      "frequencyId": 19,
+      "frequencyName": "Apply Locally"
+    },
+    {
+      "frequencyId": 20,
+      "frequencyName": "Before Sleep"
+    },
+    {
+      "frequencyId": 21,
+      "frequencyName": "Before Breakfast"
+    },
+    {
+      "frequencyId": 22,
+      "frequencyName": "After Breakfast"
+    },
+    {
+      "frequencyId": 23,
+      "frequencyName": "Before Lunch"
+    },
+    {
+      "frequencyId": 24,
+      "frequencyName": "After Lunch"
+    },
+    {
+      "frequencyId": 25,
+      "frequencyName": "After Dinner"
+    },
+    {
+      "frequencyId": 27,
+      "frequencyName": "Empty Stomach"
+    },
+    {
+      "frequencyId": 28,
+      "frequencyName": "Other"
+    },
+    {
+      "frequencyId": 30,
+      "frequencyName": "Monthly"
+    },
+    {
+      "frequencyId": 31,
+      "frequencyName": "Fortnightly"
+    }
+  ]
+}
