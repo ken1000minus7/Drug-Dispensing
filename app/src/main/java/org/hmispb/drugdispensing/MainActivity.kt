@@ -2,6 +2,8 @@ package org.hmispb.drugdispensing
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.activity.viewModels
+import dagger.hilt.android.AndroidEntryPoint
 import org.hmispb.drugdispensing.adapter.DrugDetailAdapter
 import org.hmispb.drugdispensing.databinding.ActivityMainBinding
 import android.view.LayoutInflater
@@ -14,6 +16,7 @@ import androidx.appcompat.app.AlertDialog
 import com.google.gson.Gson
 import org.hmispb.drugdispensing.model.Data
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -21,14 +24,28 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.recyclerView.adapter= DrugDetailAdapter(this)
-        binding.recyclerView.setHasFixedSize(true)
         val jsonString = resources!!.openRawResource(R.raw.data).bufferedReader().use { it.readText() }
         val data = Gson().fromJson(jsonString, Data::class.java)
+        val viewModel : DrugViewModel by viewModels()
+        val drugList = viewModel.issueDetails.value
+        val adapter = DrugDetailAdapter(data,drugList?: mutableListOf())
+        binding.recyclerView.adapter= adapter
+        viewModel.issueDetails.observe(this) {
+            adapter.updateData(it)
+        }
+
         val addDrugFragment = AddDrugBottomSheet(data)
         binding.addDrugs.setOnClickListener {
             if (addDrugFragment.isAdded) return@setOnClickListener
             addDrugFragment.show(supportFragmentManager, "addDrugs")
+        }
+        binding.saveDrugDetails.setOnClickListener {
+            if (binding.crNumberEditText.text.toString()=="") Toast.makeText(
+                this,
+                "Please enter CR number",
+                Toast.LENGTH_SHORT
+            ).show()
+            viewModel.saveDrugs(binding.crNumberEditText.text.toString().toInt())
         }
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

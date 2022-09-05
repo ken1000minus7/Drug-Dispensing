@@ -53,23 +53,6 @@
             app:layout_constraintStart_toEndOf="@id/requested_quantity"
             app:layout_constraintTop_toBottomOf="@id/tv_drug_name" />
 
-        <TextView
-            android:id="@+id/expiry_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/_10sdp"
-            android:text="@string/expiry_date"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_requested_quantity" />
-
-        <TextView
-            android:id="@+id/tv_expiry_date"
-            android:layout_width="@dimen/_100sdp"
-            android:layout_height="@dimen/_15sdp"
-            android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginTop="@dimen/_10sdp"
-            app:layout_constraintStart_toEndOf="@id/expiry_date"
-            app:layout_constraintTop_toBottomOf="@id/tv_requested_quantity" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </com.google.android.material.card.MaterialCardView>
