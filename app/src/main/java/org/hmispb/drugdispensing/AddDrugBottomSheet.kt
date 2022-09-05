@@ -1,15 +1,24 @@
 package org.hmispb.drugdispensing
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Spinner
-import android.widget.Toast
+import android.widget.*
+import androidx.core.widget.addTextChangedListener
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.Observer
+import androidx.lifecycle.lifecycleScope
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.google.android.material.textfield.TextInputEditText
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
+import org.hmispb.drugdispensing.model.Drug
+import org.hmispb.drugdispensing.model.IssueDetail
 
+@AndroidEntryPoint
 class AddDrugBottomSheet : BottomSheetDialogFragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -21,28 +30,46 @@ class AddDrugBottomSheet : BottomSheetDialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val drugs = listOf("Drug 1", "Drug 2", "Drug 3")
+        val drugViewModel : DrugViewModel by viewModels()
         val spinner = view.findViewById<Spinner>(R.id.spinner_drug_name)
-        if (spinner!=null){
+        val addDrugButton = view.findViewById<Button>(R.id.bottomSheet_addDrugs)
+        val requestedQuantity = view.findViewById<TextInputEditText>(R.id.name_input)
+        val drugs = (1..10).map {
+            Drug(
+                "Drug$it",
+                it
+            )
+        }
+
+        requestedQuantity.addTextChangedListener {
+            drugViewModel.requestedQuantity.postValue(it.toString())
+        }
+
+        if (spinner!=null) {
             val adapter = ArrayAdapter(requireContext(),
                 android.R.layout.simple_spinner_dropdown_item,
-                drugs
+                drugs.map {
+                    it.drugName
+                }
             )
             spinner.adapter = adapter
             spinner.onItemSelectedListener = object :
-            AdapterView.OnItemClickListener, AdapterView.OnItemSelectedListener {
+                AdapterView.OnItemSelectedListener {
                 override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                    Toast.makeText(requireContext(), drugs[p2], Toast.LENGTH_SHORT).show()
+                    drugViewModel.drugID.postValue(drugs[p2].itemId.toString())
                 }
 
                 override fun onNothingSelected(p0: AdapterView<*>?) {
-                    TODO("Not yet implemented")
+                    Toast.makeText(requireContext(), "nothin", Toast.LENGTH_SHORT).show()
                 }
-
-                override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                    TODO("Not yet implemented")
-                }
-
+            }
+        }
+        addDrugButton.setOnClickListener {
+            try {
+                drugViewModel.addQuantityToIssueDetail()
+                dismiss()
+            } catch (e:Exception){
+                e.printStackTrace()
             }
         }
     }

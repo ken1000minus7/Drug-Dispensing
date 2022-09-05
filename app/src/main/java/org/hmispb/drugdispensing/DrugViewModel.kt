@@ -1,0 +1,44 @@
+package org.hmispb.drugdispensing
+
+import android.util.Log
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.launch
+import org.hmispb.drugdispensing.model.DrugIssue
+import org.hmispb.drugdispensing.model.IssueDetail
+import org.hmispb.drugdispensing.room.DrugIssueRepository
+import javax.inject.Inject
+
+@HiltViewModel
+class DrugViewModel  @Inject constructor(
+    private val drugIssueRepository: DrugIssueRepository
+) : ViewModel() {
+
+    private val issueDetails : MutableLiveData<MutableList<IssueDetail>>  = MutableLiveData()
+
+    val requestedQuantity = MutableLiveData<String>()
+    val drugID = MutableLiveData<String>()
+
+
+    fun addQuantityToIssueDetail() {
+        val issueDetail = IssueDetail(requestedQty = requestedQuantity.value!!,
+            itemId  = drugID.value!!
+        )
+        Log.d("tag",issueDetail.toString())
+        val list = issueDetails.value ?: mutableListOf()
+        list.add(issueDetail)
+        issueDetails.postValue(list)
+    }
+
+    fun saveDrugs(crNumber: Int){
+        val drugIssue = DrugIssue(
+            crNo = crNumber,
+            issueDetails = issueDetails.value!!
+        )
+        viewModelScope.launch {
+            drugIssueRepository.saveDrugIssue(drugIssue)
+        }
+    }
+}
