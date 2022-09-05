@@ -9,8 +9,9 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.Toast
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import org.hmispb.drugdispensing.model.Data
 
-class AddDrugBottomSheet : BottomSheetDialogFragment() {
+class AddDrugBottomSheet(val data : Data) : BottomSheetDialogFragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -21,7 +22,12 @@ class AddDrugBottomSheet : BottomSheetDialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val drugs = listOf("Drug 1", "Drug 2", "Drug 3")
+        val drugs = mutableListOf<String>()
+        for(drug in data.drugList)
+        {
+            drugs.add(drug.drugName)
+        }
+
         val spinner = view.findViewById<Spinner>(R.id.spinner_drug_name)
         if (spinner!=null){
             val adapter = ArrayAdapter(requireContext(),
