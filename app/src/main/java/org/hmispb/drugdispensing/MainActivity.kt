@@ -2,6 +2,8 @@ package org.hmispb.drugdispensing
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import org.hmispb.drugdispensing.adapter.DrugDetailAdapter
+import org.hmispb.drugdispensing.databinding.ActivityMainBinding
 import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
@@ -9,28 +11,26 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.google.android.material.button.MaterialButton
 import com.google.gson.Gson
-import org.hmispb.drugdispensing.databinding.ActivityMainBinding
 import org.hmispb.drugdispensing.model.Data
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        binding.recyclerView.adapter= DrugDetailAdapter(this)
+        binding.recyclerView.setHasFixedSize(true)
         val jsonString = resources!!.openRawResource(R.raw.data).bufferedReader().use { it.readText() }
         val data = Gson().fromJson(jsonString, Data::class.java)
-
         val addDrugFragment = AddDrugBottomSheet(data)
         binding.addDrugs.setOnClickListener {
             if (addDrugFragment.isAdded) return@setOnClickListener
             addDrugFragment.show(supportFragmentManager, "addDrugs")
         }
     }
-
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.upload_menu,menu)
         return super.onCreateOptionsMenu(menu)
