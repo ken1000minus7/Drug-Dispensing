@@ -10,7 +10,9 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.button.MaterialButton
+import com.google.gson.Gson
 import org.hmispb.drugdispensing.databinding.ActivityMainBinding
+import org.hmispb.drugdispensing.model.Data
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -19,7 +21,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val addDrugFragment = AddDrugBottomSheet()
+        val jsonString = resources!!.openRawResource(R.raw.data).bufferedReader().use { it.readText() }
+        val data = Gson().fromJson(jsonString, Data::class.java)
+
+        val addDrugFragment = AddDrugBottomSheet(data)
         binding.addDrugs.setOnClickListener {
             if (addDrugFragment.isAdded) return@setOnClickListener
             addDrugFragment.show(supportFragmentManager, "addDrugs")
