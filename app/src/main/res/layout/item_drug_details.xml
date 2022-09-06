@@ -6,52 +6,56 @@
     android:id="@+id/card_drug_details"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="@dimen/_20sdp"
-    android:layout_marginTop="@dimen/_20sdp"
-    android:layout_marginEnd="@dimen/_20sdp">
+    android:layout_marginVertical="@dimen/_5sdp">
 
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linear_info"
         android:layout_width="match_parent"
+        android:padding="@dimen/_5sdp"
         android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/drug_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
             android:text="@string/drug_name"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/linear_info" />
 
         <TextView
             android:id="@+id/tv_drug_name"
-            android:layout_width="@dimen/_100sdp"
-            android:layout_height="@dimen/_15sdp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/drug_name"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/drug_name"
-            app:layout_constraintTop_toTopOf="@id/linear_info" />
+            app:layout_constraintTop_toTopOf="@+id/drug_name" />
 
         <TextView
             android:id="@+id/requested_quantity"
             android:layout_width="wrap_content"
+            android:textStyle="bold"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
             android:text="@string/requested_quantity"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_drug_name" />
 
         <TextView
             android:id="@+id/tv_requested_quantity"
-            android:layout_width="@dimen/_100sdp"
-            android:layout_height="@dimen/_15sdp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/requested_quantity"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/requested_quantity"
-            app:layout_constraintTop_toBottomOf="@id/tv_drug_name" />
+            app:layout_constraintTop_toTopOf="@+id/requested_quantity" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
