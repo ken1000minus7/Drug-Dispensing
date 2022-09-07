@@ -3,6 +3,8 @@ package org.hmispb.drugdispensing.room
 import androidx.lifecycle.LiveData
 import com.google.gson.Gson
 import org.hmispb.drugdispensing.model.DrugIssue
+import org.hmispb.drugdispensing.model.LoginRequest
+import org.hmispb.drugdispensing.model.LoginResponse
 import org.hmispb.drugdispensing.model.SaveDrugIssueRequest
 
 class DrugIssueRepositoryImpl(private val drugIssueDao: DrugIssueDao, private val drugIssueApi: DrugIssueApi) :
@@ -29,5 +31,9 @@ class DrugIssueRepositoryImpl(private val drugIssueDao: DrugIssueDao, private va
         // TODO : hospitalCode and seatId unknown
         val request = SaveDrugIssueRequest(0,0,drugIssueString)
         drugIssueApi.saveDrugIssue(request)
+    }
+
+    override suspend fun login(username: String, password: String): LoginResponse? {
+        return drugIssueApi.login(LoginRequest(listOf(username,password)))
     }
 }
