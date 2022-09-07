@@ -10,14 +10,20 @@ import org.hmispb.drugdispensing.model.DrugIssue
 @Dao
 interface DrugIssueDao {
     @Insert
-    fun insertDrugIssue(drugIssue : DrugIssue)
+    suspend fun insertDrugIssue(drugIssue : DrugIssue)
 
     @Query("SELECT * FROM drugissue")
     fun getAllDrugIssues() : LiveData<List<DrugIssue>>
 
     @Delete
-    fun deleteDrugIssue(drugIssue: DrugIssue)
+    suspend fun deleteDrugIssue(drugIssue: DrugIssue)
 
     @Query("DELETE FROM drugissue")
-    fun deleteAllDrugIssues()
+    suspend fun deleteAllDrugIssues()
+
+    @Query("UPDATE drugissue SET isUploaded=1 WHERE id=:id")
+    suspend fun setUploaded(id : Int)
+
+    @Query("SELECT count(*) FROM drugissue WHERE isUploaded=0")
+    suspend fun notUploadedCount() : Int
 }

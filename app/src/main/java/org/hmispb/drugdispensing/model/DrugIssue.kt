@@ -7,12 +7,13 @@ import androidx.room.PrimaryKey
 data class DrugIssue(
     @PrimaryKey(autoGenerate = true)
     val id : Int? = null,
-    val crNo: Int,
+    val crNo: String,
     val hospitalId: Int? = null,
     val issueDetails: List<IssueDetail>,
     val patAge: String? = null,
     val patFName: String? =null,
     val patGender: String? = null,
     val patMobileNo: String? = null,
-    val patName: String? = null
+    val patName: String? = null,
+    var isUploaded : Boolean = false
 )

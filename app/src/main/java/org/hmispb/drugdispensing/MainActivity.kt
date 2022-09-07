@@ -2,6 +2,7 @@ package org.hmispb.drugdispensing
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.viewModels
 import dagger.hilt.android.AndroidEntryPoint
 import org.hmispb.drugdispensing.adapter.DrugDetailAdapter
@@ -13,24 +14,32 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import com.google.gson.Gson
+import kotlinx.coroutines.launch
 import org.hmispb.drugdispensing.model.Data
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private lateinit var drugViewModel: DrugViewModel
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         val jsonString = resources!!.openRawResource(R.raw.data).bufferedReader().use { it.readText() }
         val data = Gson().fromJson(jsonString, Data::class.java)
-        val viewModel : DrugViewModel by viewModels()
-        val drugList = viewModel.issueDetails.value
+
+        drugViewModel = ViewModelProvider(this)[DrugViewModel::class.java]
+        val drugList = drugViewModel.issueDetails.value
         val adapter = DrugDetailAdapter(data,drugList?: mutableListOf())
         binding.recyclerView.adapter= adapter
-        viewModel.issueDetails.observe(this) {
+
+        drugViewModel.issueDetails.observe(this) {
             adapter.updateData(it)
         }
 
@@ -39,13 +48,22 @@ class MainActivity : AppCompatActivity() {
             if (addDrugFragment.isAdded) return@setOnClickListener
             addDrugFragment.show(supportFragmentManager, "addDrugs")
         }
+
         binding.saveDrugDetails.setOnClickListener {
-            if (binding.crNumberEditText.text.toString()=="") Toast.makeText(
-                this,
-                "Please enter CR number",
-                Toast.LENGTH_SHORT
-            ).show()
-            viewModel.saveDrugs(binding.crNumberEditText.text.toString().toInt())
+            if (binding.crNumberEditText.text.toString()=="") {
+                Toast.makeText(
+                    this,
+                    "Please enter CR number",
+                    Toast.LENGTH_SHORT
+                ).show()
+                return@setOnClickListener
+            }
+            drugViewModel.insertDrug(binding.crNumberEditText.text.toString())
+            Toast.makeText(this@MainActivity,"Prescription saved",Toast.LENGTH_SHORT).show()
+        }
+
+        drugViewModel.drugIssueList.observe(this) {
+            Log.d("listy",it.toString())
         }
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -63,23 +81,40 @@ class MainActivity : AppCompatActivity() {
             val password = dialog.findViewById<EditText>(R.id.password)
             val upload = dialog.findViewById<Button>(R.id.upload)
             upload?.setOnClickListener {
-                if(username?.text.toString().isEmpty() || password?.text.isNullOrEmpty()) {
-                    if(username?.text.toString().isEmpty())
+                if (username?.text.toString().isEmpty() || password?.text.isNullOrEmpty()) {
+                    if (username?.text.toString().isEmpty())
                         username?.error = "Required"
-                    if(password?.text.toString().isEmpty())
+                    if (password?.text.toString().isEmpty())
                         password?.error = "Required"
-                    Toast.makeText(this@MainActivity,"One or more fields are empty", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this@MainActivity,
+                        "One or more fields are empty",
+                        Toast.LENGTH_SHORT
+                    ).show()
                     return@setOnClickListener
                 }
-//                patientViewModel.upload(username!!.text.toString(),password!!.text.toString())
+                drugViewModel.drugIssueList.observe(this@MainActivity) { drugIssues ->
+                    drugViewModel.upload(
+                        username!!.text.toString(),
+                        password!!.text.toString(),
+                        drugIssues
+                    )
+                }
             }
-//            patientViewModel.uploaded.observe(this@MainActivity) { uploaded ->
-//                if(uploaded) {
-//                    Toast.makeText(this@MainActivity,"Data successfully uploaded", Toast.LENGTH_SHORT).show()
-//                    dialogInterface.cancel()
-//                    patientViewModel.uploaded.value = false
-//                }
-//            }
+            drugViewModel.uploaded.observe(this@MainActivity) { uploaded ->
+                lifecycleScope.launch {
+                    if (uploaded && dialog.isShowing) {
+                        // TODO: Fix this
+                        Toast.makeText(
+                            this@MainActivity,
+                            if (drugViewModel.containsNotUploaded()) "One or more entries were not uploaded" else "Data successfully uploaded",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                        dialogInterface.cancel()
+                        drugViewModel.uploaded.postValue(false)
+                    }
+                }
+            }
         }
         dialog.show()
         return super.onOptionsItemSelected(item)
