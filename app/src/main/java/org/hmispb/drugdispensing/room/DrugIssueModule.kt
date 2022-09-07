@@ -11,6 +11,9 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import okhttp3.Cache
 import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
+import org.hmispb.drugdispensing.Util.password
+import org.hmispb.drugdispensing.Util.username
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
@@ -38,6 +41,8 @@ object DrugIssueModule {
     @Provides
     @Singleton
     fun provideDrugIssueApi(app : Application) : DrugIssueApi {
+        val logging = HttpLoggingInterceptor()
+        logging.setLevel(HttpLoggingInterceptor.Level.BODY)
         val cacheSize = (10*1024*1024).toLong()
         val cache = Cache(app.cacheDir, cacheSize)
         val okHttpClient = OkHttpClient.Builder()
@@ -45,6 +50,11 @@ object DrugIssueModule {
             .readTimeout(60, TimeUnit.SECONDS)
             .writeTimeout(60, TimeUnit.SECONDS)
             .cache(cache)
+            .addInterceptor(logging)
+            .addInterceptor(BasicAuthInterceptor(
+                username,
+                password
+            ))
             .addInterceptor{
                 var request = it.request()
                 request = if (hasNetwork(app) ==true)
