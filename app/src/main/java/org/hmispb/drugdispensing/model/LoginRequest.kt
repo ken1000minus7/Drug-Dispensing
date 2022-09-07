@@ -1,6 +1,5 @@
 package org.hmispb.drugdispensing.model
 
 data class LoginRequest(
-    val userName: String,
-    val password: String
+    val primaryKeys: List<String>
 )

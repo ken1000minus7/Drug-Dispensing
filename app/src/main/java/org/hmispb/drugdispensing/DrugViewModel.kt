@@ -7,6 +7,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import org.hmispb.drugdispensing.model.DrugIssue
 import org.hmispb.drugdispensing.model.IssueDetail
+import org.hmispb.drugdispensing.model.LoginResponse
 import org.hmispb.drugdispensing.room.DrugIssueRepository
 import javax.inject.Inject
 
@@ -37,4 +38,8 @@ class DrugViewModel  @Inject constructor(
             drugIssueRepository.saveDrugIssue(drugIssue)
         }
     }
+
+    suspend fun login(username : String, password : String) : LoginResponse? =
+        drugIssueRepository.login(username, password)
+
 }
