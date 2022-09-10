@@ -10,6 +10,7 @@ import androidx.activity.viewModels
 import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
+import org.hmispb.drugdispensing.App.Companion.appContext
 import org.hmispb.drugdispensing.Util.HOSPITAL_CODE
 import org.hmispb.drugdispensing.Util.HOSPITAL_NAME
 import org.hmispb.drugdispensing.Util.LOGIN_RESPONSE_PREF
@@ -36,27 +37,32 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
         val viewModel: DrugViewModel by viewModels()
         binding.btnSubmit.setOnClickListener {
-            lifecycleScope.launch {
-                val response = viewModel.login(
-                    binding.userName.text.toString(),
-                    binding.passWord.text.toString()
-                )
-                if (response?.dataValue == null) {
-                    Toast.makeText(
-                        this@LoginActivity,
-                        "Incorrect Username/ Password",
-                        Toast.LENGTH_SHORT
-                    ).show()
-                } else {
-                    val sharedPrefEditor = sharedPref.edit()
-                    sharedPrefEditor.putString(HOSPITAL_CODE, response.dataValue[0][0])
-                    sharedPrefEditor.putString(HOSPITAL_NAME, response.dataValue[0][1])
-                    sharedPrefEditor.putString(USER_ID, response.dataValue[0][2])
-                    sharedPrefEditor.putString(USERNAME, response.dataValue[0][3])
-                    sharedPrefEditor.apply()
-                    val intent = Intent(this@LoginActivity, MainActivity::class.java)
-                    startActivity(intent)
+            if (appContext!!.isOnline) {
+                lifecycleScope.launch {
+                    val response = viewModel.login(
+                        binding.userName.text.toString(),
+                        binding.passWord.text.toString()
+                    )
+                    if (response?.dataValue == null) {
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Incorrect Username/ Password",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    } else {
+                        val sharedPrefEditor = sharedPref.edit()
+                        sharedPrefEditor.putString(HOSPITAL_CODE, response.dataValue[0][0])
+                        sharedPrefEditor.putString(HOSPITAL_NAME, response.dataValue[0][1])
+                        sharedPrefEditor.putString(USER_ID, response.dataValue[0][2])
+                        sharedPrefEditor.putString(USERNAME, response.dataValue[0][3])
+                        sharedPrefEditor.apply()
+                        val intent = Intent(this@LoginActivity, MainActivity::class.java)
+                        startActivity(intent)
+                    }
                 }
+            } else {
+                Toast.makeText(this, "Please check your internet connection", Toast.LENGTH_SHORT)
+                    .show()
             }
         }
     }
