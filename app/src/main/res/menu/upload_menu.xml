@@ -6,4 +6,10 @@
         android:icon="@drawable/upload"
         android:title="Upload"
         app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/search_button"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="Search Drug Consumption" />
 </menu>
