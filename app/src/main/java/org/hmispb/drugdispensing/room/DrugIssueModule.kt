@@ -14,6 +14,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.hmispb.drugdispensing.Util.password
 import org.hmispb.drugdispensing.Util.username
+import org.hmispb.drugdispensing.model.DailyDrugConsumption
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
@@ -36,6 +37,12 @@ object DrugIssueModule {
     @Singleton
     fun provideDrugIssueRepository(drugIssueDatabase: DrugIssueDatabase, drugIssueApi: DrugIssueApi) : DrugIssueRepository {
         return DrugIssueRepositoryImpl(drugIssueDatabase.drugIssueDao,drugIssueApi)
+    }
+
+    @Provides
+    @Singleton
+    fun provideDailyDrugConsumption(drugIssueDatabase: DrugIssueDatabase) : DailyDrugConsumptionRepository {
+        return DailyDrugConsumptionRepositoryImpl(drugIssueDatabase.dailyDrugConsumptionDao)
     }
 
     @Provides

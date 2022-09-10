@@ -19,4 +19,16 @@ object TypeConverter {
             type
         ) ?: emptyList()
     }
+
+    @TypeConverter
+    fun drugListToJSON(drugList: List<Long>) = Gson().toJson(drugList)!!
+
+    @TypeConverter
+    fun drugListFromJson(drugListJson: String) :List<Long> {
+        val type: Type = object  : TypeToken<ArrayList<Long>>() {}.type
+        return Gson().fromJson(
+            drugListJson,
+            type
+        ) ?: emptyList()
+    }
 }
