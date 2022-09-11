@@ -122,17 +122,21 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
                     drugViewModel.uploaded.observe(this@MainActivity) { uploaded ->
-                        lifecycleScope.launch {
-                            if (uploaded && dialog.isShowing) {
-                                // TODO: Fix this
+                        if(!uploaded)
+                            return@observe
+                        drugViewModel.drugIssueList.observe(this) {
+                            val drug = it.find { drug ->
+                                !drug.isUploaded
+                            }
+                            if (drug==null) {
                                 Toast.makeText(
                                     this@MainActivity,
-                                    if (drugViewModel.containsNotUploaded()) "One or more entries were not uploaded" else "Data successfully uploaded",
+                                    "Data successfully uploaded",
                                     Toast.LENGTH_SHORT
                                 ).show()
                                 dialogInterface.cancel()
-                                drugViewModel.uploaded.postValue(false)
                             }
+                            drugViewModel.uploaded.postValue(false)
                         }
                     }
                 }
