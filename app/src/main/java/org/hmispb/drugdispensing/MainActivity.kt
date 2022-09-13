@@ -20,6 +20,7 @@ import com.google.gson.Gson
 import kotlinx.coroutines.launch
 import org.hmispb.drugdispensing.model.DailyDrugConsumption
 import org.hmispb.drugdispensing.model.Data
+import java.util.*
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -35,10 +36,17 @@ class MainActivity : AppCompatActivity() {
 
         val jsonString = resources!!.openRawResource(R.raw.data).bufferedReader().use { it.readText() }
         val data = Gson().fromJson(jsonString, Data::class.java)
+        val sharedPreferences = getSharedPreferences(Util.LOGIN_RESPONSE_PREF, MODE_PRIVATE)
 
         drugViewModel = ViewModelProvider(this)[DrugViewModel::class.java]
         drugConsumptionViewModel = ViewModelProvider(this)[DailyDrugConsumptionViewModel::class.java]
-
+        val hospitalCode = sharedPreferences.getString(Util.HOSPITAL_CODE,"")
+        val currentDate = Date()
+        val currentMonth = currentDate.month+1
+        val currentYear = currentDate.year + 1900
+        val crMiddle = "${if(currentDate.date<10) "0" else ""}${currentDate.date}${if(currentMonth<10) "0" else ""}${currentMonth}${currentYear.toString().substring(2)}"
+        binding.crStart.setText(hospitalCode)
+        binding.crMid.setText(crMiddle)
 
         val allDailyDrugConsumptionList = drugConsumptionViewModel.getDailyDrugConsumptions()
         lifecycleScope.launch {
@@ -46,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                 if (it.isEmpty()) {
                     drugConsumptionViewModel.insertDailyDrugConsumption(DailyDrugConsumption.firstRow)
                 }
-                drugConsumptionViewModel.insertEmptyDailyDrugConsumption()
+                    drugConsumptionViewModel.insertEmptyDailyDrugConsumption()
             }
         }
 
@@ -67,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.saveDrugDetails.setOnClickListener {
-            if (binding.crNumberEditText.text.toString()=="") {
+            if (binding.crno.text.toString()=="") {
                 Toast.makeText(
                     this,
                     "Please enter CR number",
@@ -75,8 +83,12 @@ class MainActivity : AppCompatActivity() {
                 ).show()
                 return@setOnClickListener
             }
-            drugViewModel.insertDrug(binding.crNumberEditText.text.toString())
-            Toast.makeText(this@MainActivity,"Prescription saved",Toast.LENGTH_SHORT).show()
+            try{
+                drugViewModel.insertDrug(binding.crno.text.toString())
+                Toast.makeText(this@MainActivity, "Prescription saved", Toast.LENGTH_SHORT).show()
+            }catch (e: Exception){
+                Toast.makeText(this, "Please enter drug details", Toast.LENGTH_SHORT).show()
+            }
 
         }
 
