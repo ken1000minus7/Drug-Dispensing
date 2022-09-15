@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.saveDrugDetails.setOnClickListener {
-            if (binding.crno.text.toString() == "" || drugViewModel.issueDetails.value.isNullOrEmpty()) {
+            if (binding.crno.text.toString() == "" || drugViewModel.issueDetails.value.isNullOrEmpty() ) {
                 Toast.makeText(
                     this,
                     "Please enter CR number",
@@ -92,6 +92,11 @@ class MainActivity : AppCompatActivity() {
                 ).show()
                 return@setOnClickListener
             }
+            else if ( adapter.itemCount==0) Toast.makeText(
+                this,
+                "Please add drugs",
+                Toast.LENGTH_SHORT
+            ).show()
             else {
                 try {
                     drugViewModel.insertDrug(binding.crno.text.toString())
