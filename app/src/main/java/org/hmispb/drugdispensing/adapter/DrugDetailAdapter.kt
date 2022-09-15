@@ -45,8 +45,15 @@ class DrugDetailAdapter(private val data: Data,
         holder.drugName?.text = drug?.drugName
         holder.requestedQuantity?.text = issueDetail.requestedQty
         holder.delete.setOnClickListener{
-            drugConsumptionViewModel.viewModelScope.launch {
-                drugConsumptionViewModel.updateDrugConsumption(issueDetail.itemId.toLong(),drugList[position].requestedQty.toInt() * -1)
+           try {
+                drugConsumptionViewModel.viewModelScope.launch {
+                    drugConsumptionViewModel.updateDrugConsumption(
+                        issueDetail.itemId.toLong(),
+                        drugList[position].requestedQty.toInt() * -1
+                    )
+                }
+            } catch (e:Exception){
+                e.printStackTrace()
             }
             drugList.removeAt(position)
             notifyDataSetChanged()
