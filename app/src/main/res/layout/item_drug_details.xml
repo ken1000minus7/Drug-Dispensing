@@ -31,8 +31,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_13sdp"
             app:layout_constraintBottom_toBottomOf="@+id/drug_name"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/delete"
             app:layout_constraintStart_toEndOf="@id/drug_name"
             app:layout_constraintTop_toTopOf="@+id/drug_name" />
 
@@ -52,10 +53,25 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginVertical="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_13sdp"
             app:layout_constraintBottom_toBottomOf="@+id/requested_quantity"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/delete"
             app:layout_constraintStart_toEndOf="@id/requested_quantity"
             app:layout_constraintTop_toTopOf="@+id/requested_quantity" />
+
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            app:srcCompat="@drawable/delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

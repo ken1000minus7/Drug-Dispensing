@@ -18,11 +18,14 @@
         android:layout_marginVertical="@dimen/_5sdp"
         />
 
-    <Spinner
+    <TextView
         android:id="@+id/spinner_drug_name"
         android:layout_width="0dp"
+        android:hint="Select drug "
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_5sdp"
+        android:drawableEnd="@drawable/ic_add"
+        android:background="@android:drawable/editbox_background"
         app:layout_constraintBottom_toBottomOf="@+id/tv_drug_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/tv_drug_name"

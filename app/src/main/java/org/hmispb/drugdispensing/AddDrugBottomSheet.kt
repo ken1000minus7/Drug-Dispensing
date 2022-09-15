@@ -1,6 +1,9 @@
 package org.hmispb.drugdispensing
 
+import android.app.Dialog
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +12,7 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.activityViewModels
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.textfield.TextInputEditText
+import com.google.android.material.textview.MaterialTextView
 import dagger.hilt.android.AndroidEntryPoint
 import org.hmispb.drugdispensing.model.Drug
 import org.hmispb.drugdispensing.model.Data
@@ -26,7 +30,7 @@ class AddDrugBottomSheet(val data : Data) : BottomSheetDialogFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val spinner = view.findViewById<Spinner>(R.id.spinner_drug_name)
+        val spinner = view.findViewById<MaterialTextView>(R.id.spinner_drug_name)
         val addDrugButton = view.findViewById<Button>(R.id.bottomSheet_addDrugs)
         val requestedQuantity = view.findViewById<TextInputEditText>(R.id.name_input)
 
@@ -40,27 +44,53 @@ class AddDrugBottomSheet(val data : Data) : BottomSheetDialogFragment() {
             drugViewModel.requestedQuantity.postValue(it.toString())
         }
 
-        if (spinner != null) {
-            val adapter = ArrayAdapter(requireContext(),
-                android.R.layout.simple_spinner_dropdown_item,
-                drugs.map {
+        spinner.setOnClickListener {
+            val dialog = Dialog(requireContext())
+            dialog.setContentView(R.layout.dialog_searchable_spinner)
+            dialog.window?.setLayout(650, 800)
+            dialog.show()
+            //Initiate and assign variable
+            val editText = dialog.findViewById<EditText>(R.id.edit_text)
+            val listView = dialog.findViewById<ListView>(R.id.list_view)
+            //Array Adapter init
+            val adapter: ArrayAdapter<String> = ArrayAdapter(requireContext(),
+                android.R.layout.simple_list_item_1, drugs.map {
                     it.drugName
-                }
-            )
-            spinner.adapter = adapter
-            spinner.onItemSelectedListener = object :
-                AdapterView.OnItemSelectedListener {
-                override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                    drugViewModel.drugID.postValue(drugs[p2].itemId.toString())
+                })
+            listView.adapter = adapter
+            editText.addTextChangedListener(object : TextWatcher {
+                override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) = Unit
+
+                override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                    adapter.filter.filter(p0)
                 }
 
-                override fun onNothingSelected(p0: AdapterView<*>?) = Unit
+                override fun afterTextChanged(p0: Editable?) = Unit
+
+            })
+            listView.setOnItemClickListener { p0, p1, p2, p3 ->
+                drugViewModel.drugID.postValue(drugs[p2].itemId.toString())
+                dialog.dismiss()
+                spinner.text = drugs[p2].drugName
+
             }
         }
         addDrugButton.setOnClickListener {
             try {
-                drugViewModel.addQuantityToIssueDetail()
-                dismiss()
+                if (spinner.text == "") Toast.makeText(
+                    requireContext(),
+                    "Please select drug",
+                    Toast.LENGTH_SHORT
+                ).show()
+                else if (requestedQuantity.text?.isEmpty() == true) Toast.makeText(
+                    requireContext(),
+                    "Please add required quantity",
+                    Toast.LENGTH_SHORT
+                ).show()
+                else {
+                    drugViewModel.addQuantityToIssueDetail()
+                    dismiss()
+                }
             } catch (e: Exception) {
                 e.printStackTrace()
             }

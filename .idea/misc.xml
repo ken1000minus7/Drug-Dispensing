@@ -5,9 +5,10 @@
       <map>
         <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/drawable/ic_search.xml" value="0.233" />
         <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/activity_login.xml" value="0.10925925925925926" />
-        <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/activity_main.xml" value="0.20923913043478262" />
+        <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/activity_search.xml" value="0.1" />
         <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/bottomsheet_add_drug_details.xml" value="0.20697463768115942" />
+        <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/dialog_searchable_spinner.xml" value="0.1" />
         <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/item_drug_consumption.xml" value="0.12158054711246201" />
         <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/item_drug_details.xml" value="0.24682971014492755" />
         <entry key="..\:/Programming/MyGithubRepos/Drug-Dispensing/app/src/main/res/layout/login_dialog.xml" value="0.25" />
