@@ -71,7 +71,7 @@ class AddDrugBottomSheet(val data : Data) : BottomSheetDialogFragment() {
             listView.setOnItemClickListener { p0, p1, p2, p3 ->
                 drugViewModel.drugID.postValue(drugs[p2].itemId.toString())
                 dialog.dismiss()
-                spinner.text = drugs[p2].drugName
+                spinner.text = adapter.getItem(p2)
 
             }
         }
