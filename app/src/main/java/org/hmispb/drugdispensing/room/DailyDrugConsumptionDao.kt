@@ -1,6 +1,7 @@
 package org.hmispb.drugdispensing.room
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
@@ -20,4 +21,5 @@ interface DailyDrugConsumptionDao {
 
     @Query("UPDATE DailyDrugConsumption set drugList =:newDrugList where id =:id")
     suspend fun updateDailyDrugConsumption(newDrugList: List<Long>, id: String)
+
 }

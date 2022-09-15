@@ -1,20 +1,29 @@
 package org.hmispb.drugdispensing.adapter
 
+import android.os.Build
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
+import androidx.annotation.RequiresApi
+import androidx.lifecycle.viewModelScope
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.coroutines.launch
+import org.hmispb.drugdispensing.DailyDrugConsumptionViewModel
+import org.hmispb.drugdispensing.DrugViewModel
 import org.hmispb.drugdispensing.R
 import org.hmispb.drugdispensing.model.Data
 import org.hmispb.drugdispensing.model.IssueDetail
 
 class DrugDetailAdapter(private val data: Data,
     private val drugList: MutableList<IssueDetail>,
+                        private val drugConsumptionViewModel: DailyDrugConsumptionViewModel
 ): RecyclerView.Adapter<DrugDetailAdapter.DrugDetailViewHolder>() {
 
     class DrugDetailViewHolder(view: View?) : RecyclerView.ViewHolder(view!!) {
-
+        val delete : ImageView = view!!.findViewById(R.id.delete)
         val drugName: TextView? = view!!.findViewById(R.id.tv_drug_name)
         val requestedQuantity: TextView? = view!!.findViewById(R.id.tv_requested_quantity)
     }
@@ -27,6 +36,7 @@ class DrugDetailAdapter(private val data: Data,
 
     override fun getItemCount() = drugList.size
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onBindViewHolder(holder: DrugDetailViewHolder, position: Int) {
         val issueDetail = drugList[position]
         val drug = data.drugList.find {
@@ -34,12 +44,25 @@ class DrugDetailAdapter(private val data: Data,
         }
         holder.drugName?.text = drug?.drugName
         holder.requestedQuantity?.text = issueDetail.requestedQty
+        holder.delete.setOnClickListener{
+            drugConsumptionViewModel.viewModelScope.launch {
+                drugConsumptionViewModel.updateDrugConsumption(issueDetail.itemId.toLong(),drugList[position].requestedQty.toInt() * -1)
+            }
+            drugList.removeAt(position)
+            notifyDataSetChanged()
+        }
     }
 
     fun updateData(newDrugList: MutableList<IssueDetail>) {
-        if (drugList.isEmpty()) drugList.addAll(newDrugList)
-        drugList.clear()
-        drugList.addAll(newDrugList)
-        notifyDataSetChanged()
+        if (newDrugList.isEmpty()){
+            drugList.clear()
+            notifyDataSetChanged()
+        }
+        else {
+            if (drugList.isEmpty()) drugList.addAll(newDrugList)
+            drugList.clear()
+            drugList.addAll(newDrugList)
+            notifyDataSetChanged()
+        }
     }
 }

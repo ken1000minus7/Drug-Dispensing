@@ -1,5 +1,6 @@
 package org.hmispb.drugdispensing
 
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -23,15 +24,22 @@ class DrugViewModel  @Inject constructor(
     var drugIssueList = drugIssueRepository.getAllDrugIssues()
 
     fun addQuantityToIssueDetail() {
-        val issueDetail = IssueDetail(
-            requestedQty = requestedQuantity.value!!,
-            itemId = drugID.value!!
-        )
-        val list = issueDetails.value ?: mutableListOf()
-        list.add(issueDetail)
-        issueDetails.postValue(list)
+        if (requestedQuantity.value!="") {
+            val issueDetail = IssueDetail(
+                requestedQty = requestedQuantity.value!!,
+                itemId = drugID.value!!
+            )
+            val list = issueDetails.value ?: mutableListOf()
+            list.add(issueDetail)
+            issueDetails.postValue(list)
+        }
+    }
+    fun deleteAtIndex(idx: Int){
+        val list = issueDetails.value
+        list?.removeAt(idx)
     }
 
+    //Insert into local storage
     fun insertDrug(crNumber: String) {
         val drugIssue = DrugIssue(
             crNo = crNumber,
@@ -40,6 +48,7 @@ class DrugViewModel  @Inject constructor(
         viewModelScope.launch {
             drugIssueRepository.insertDrugIssue(drugIssue)
         }
+        issueDetails.postValue(mutableListOf())
     }
 
     private fun saveDrugs(drugIssue: DrugIssue, hospitalCode: String, userId: String) {

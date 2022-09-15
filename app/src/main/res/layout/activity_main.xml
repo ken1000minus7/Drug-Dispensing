@@ -114,7 +114,6 @@
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
-
     <TextView
         android:id="@+id/drug_detail"
         android:layout_width="wrap_content"

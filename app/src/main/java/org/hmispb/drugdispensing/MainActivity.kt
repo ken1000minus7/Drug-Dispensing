@@ -59,13 +59,22 @@ class MainActivity : AppCompatActivity() {
         }
 
         val drugList = drugViewModel.issueDetails.value
-        val adapter = DrugDetailAdapter(data,drugList?: mutableListOf())
+        val adapter = DrugDetailAdapter(data,drugList?: mutableListOf(), drugConsumptionViewModel)
         binding.recyclerView.adapter= adapter
         drugViewModel.issueDetails.observe(this) {
             lifecycleScope.launch {
-                    drugConsumptionViewModel.updateDrugConsumption(drugViewModel.drugID.value!!.toLong(), it.last().requestedQty.toInt())
+               try{
+                    if (it.isNotEmpty()) drugConsumptionViewModel.updateDrugConsumption(
+                        drugViewModel.drugID.value!!.toLong(),
+                        it.last().requestedQty.toInt()
+
+                    )
+                   adapter.updateData(it)
+                } catch (e: Exception){
+                   Toast.makeText(this@MainActivity, "Please try again.", Toast.LENGTH_SHORT).show()
+               }
             }
-            adapter.updateData(it)
+
         }
 
         val addDrugFragment = AddDrugBottomSheet(data)
@@ -75,7 +84,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.saveDrugDetails.setOnClickListener {
-            if (binding.crno.text.toString()=="") {
+            if (binding.crno.text.toString() == "" || drugViewModel.issueDetails.value.isNullOrEmpty()) {
                 Toast.makeText(
                     this,
                     "Please enter CR number",
@@ -83,13 +92,18 @@ class MainActivity : AppCompatActivity() {
                 ).show()
                 return@setOnClickListener
             }
-            try{
-                drugViewModel.insertDrug(binding.crno.text.toString())
-                Toast.makeText(this@MainActivity, "Prescription saved", Toast.LENGTH_SHORT).show()
-            }catch (e: Exception){
-                Toast.makeText(this, "Please enter drug details", Toast.LENGTH_SHORT).show()
-            }
+            else {
+                try {
+                    drugViewModel.insertDrug(binding.crno.text.toString())
+                    Toast.makeText(this@MainActivity, "Prescription saved ", Toast.LENGTH_SHORT)
+                        .show()
+                    binding.crno.text?.clear()
+                    adapter.updateData(mutableListOf())
 
+                } catch (e: Exception) {
+                    Toast.makeText(this, "Please enter drug details", Toast.LENGTH_SHORT).show()
+                }
+            }
         }
 
         drugViewModel.drugIssueList.observe(this) {
