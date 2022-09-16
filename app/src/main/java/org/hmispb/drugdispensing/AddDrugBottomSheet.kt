@@ -47,7 +47,7 @@ class AddDrugBottomSheet(val data : Data) : BottomSheetDialogFragment() {
         spinner.setOnClickListener {
             val dialog = Dialog(requireContext())
             dialog.setContentView(R.layout.dialog_searchable_spinner)
-            dialog.window?.setLayout(650, 800)
+         //   dialog.window?.setLayout(940, 1300)
             dialog.show()
             //Initiate and assign variable
             val editText = dialog.findViewById<EditText>(R.id.edit_text)
