@@ -1,12 +1,10 @@
 package org.hmispb.drugdispensing.adapter
 
-import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.annotation.RequiresApi
 import androidx.lifecycle.viewModelScope
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.launch
@@ -36,7 +34,6 @@ class DrugDetailAdapter(private val data: Data,
 
     override fun getItemCount() = drugList.size
 
-    @RequiresApi(Build.VERSION_CODES.O)
     override fun onBindViewHolder(holder: DrugDetailViewHolder, position: Int) {
         val issueDetail = drugList[position]
         val drug = data.drugList.find {

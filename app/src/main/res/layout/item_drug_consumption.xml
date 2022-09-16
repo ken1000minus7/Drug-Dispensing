@@ -20,6 +20,7 @@
             android:layout_marginVertical="@dimen/_10sdp"
             android:text="@string/drug_name"
             android:textStyle="bold"
+            android:textSize="@dimen/_11ssp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/card_drug_consumption" />
 
@@ -30,6 +31,7 @@
             android:layout_marginStart="@dimen/_10sdp"
             app:layout_constraintBottom_toBottomOf="@+id/drug_name_for_consumption"
             app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/_12ssp"
             app:layout_constraintStart_toEndOf="@id/drug_name_for_consumption"
             app:layout_constraintTop_toTopOf="@+id/drug_name_for_consumption" />
 
@@ -40,6 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="@dimen/_10sdp"
             android:text="Drugs Consumed"
+            android:textSize="@dimen/_11ssp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_drug_name_for_consumption" />
 
@@ -49,6 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginVertical="@dimen/_10sdp"
+            android:textSize="@dimen/_12ssp"
             app:layout_constraintBottom_toBottomOf="@+id/count"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/count"
