@@ -1,20 +1,15 @@
 package org.hmispb.drugdispensing
 
-import android.os.Build
 import android.util.Log
-import androidx.annotation.RequiresApi
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import org.hmispb.drugdispensing.model.DailyDrugConsumption
 import org.hmispb.drugdispensing.room.DailyDrugConsumptionRepository
-import java.time.LocalDateTime
-import java.time.format.DateTimeFormatter
+import java.util.*
 import javax.inject.Inject
 
-
-@RequiresApi(Build.VERSION_CODES.O)
 @HiltViewModel
 class DailyDrugConsumptionViewModel @Inject constructor(
     private val dailyDrugConsumptionRepository: DailyDrugConsumptionRepository
@@ -34,11 +29,13 @@ class DailyDrugConsumptionViewModel @Inject constructor(
             }
         Log.d("whatthe", allDailyDrugConsumption.toString())
 
-        val current = LocalDateTime.now()
-        val currentDateIntoID = DateTimeFormatter.BASIC_ISO_DATE
-        val formattedID = current.format(currentDateIntoID)
-        val currentDate = DateTimeFormatter.ofPattern("dd-MM-yy")
-        val formatted = current.format(currentDate)
+        val currentDate = Date()
+        val currentMonth = currentDate.month+1
+        val currentYear = currentDate.year + 1900
+        val date = "${if(currentDate.date<10) "0" else ""}${currentDate.date}"
+        val month = "${if(currentMonth<10) "0" else ""}${currentMonth}"
+        val formattedID = "$currentYear$month$date"
+        val formatted = "$date-$month-${currentYear.toString().substring(2)}"
         if (!allDailyDrugConsumption.contains(formattedID)) {
             val newDailyDrugConsumption = DailyDrugConsumption(id = formattedID,
                 date = formatted,
@@ -50,9 +47,12 @@ class DailyDrugConsumptionViewModel @Inject constructor(
     }
 
     suspend fun updateDrugConsumption(drugId: Long, value: Int) {
-        val current = LocalDateTime.now()
-        val currentDateIntoID = DateTimeFormatter.BASIC_ISO_DATE
-        val formattedID = current.format(currentDateIntoID)
+        val currentDate = Date()
+        val currentMonth = currentDate.month+1
+        val currentYear = currentDate.year + 1900
+        val date = "${if(currentDate.date<10) "0" else ""}${currentDate.date}"
+        val month = "${if(currentMonth<10) "0" else ""}${currentMonth}"
+        val formattedID = "$currentYear$month$date"
         val allDrugsOfToday =
             dailyDrugConsumptionRepository.getDailyDrugConsumption().first().last {
                 it.id == formattedID
