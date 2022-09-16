@@ -23,7 +23,7 @@ class SearchActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySearchBinding.inflate(layoutInflater)
         setContentView(binding.root)
-       try { supportActionBar?.setDisplayHomeAsUpEnabled(true) } catch (e : Exception){}
+        try { supportActionBar?.setDisplayHomeAsUpEnabled(true) } catch (e : Exception){}
         val viewModel = ViewModelProvider(this)[DailyDrugConsumptionViewModel::class.java]
 
         val jsonString =
@@ -66,6 +66,6 @@ class SearchActivity : AppCompatActivity() {
         if (item.itemId== android.R.id.home){
             finish()
         }
-        return true
+        return super.onOptionsItemSelected(item)
     }
 }
