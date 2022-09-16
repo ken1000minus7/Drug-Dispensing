@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                try{
                     if (it.isNotEmpty()) drugConsumptionViewModel.updateDrugConsumption(
                         drugViewModel.drugID.value!!.toLong(),
-                        it.last().requestedQty.toInt()
+                        it.last().issueQty.toInt()
 
                     )
                    adapter.updateData(it)

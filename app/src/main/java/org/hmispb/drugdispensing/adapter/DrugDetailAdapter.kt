@@ -23,7 +23,7 @@ class DrugDetailAdapter(private val data: Data,
     class DrugDetailViewHolder(view: View?) : RecyclerView.ViewHolder(view!!) {
         val delete : ImageView = view!!.findViewById(R.id.delete)
         val drugName: TextView? = view!!.findViewById(R.id.tv_drug_name)
-        val requestedQuantity: TextView? = view!!.findViewById(R.id.tv_requested_quantity)
+        val issuedQuantity: TextView? = view!!.findViewById(R.id.tv_issued_quantity)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DrugDetailViewHolder {
@@ -40,13 +40,13 @@ class DrugDetailAdapter(private val data: Data,
             it.itemId == issueDetail.itemId.toInt()
         }
         holder.drugName?.text = drug?.drugName
-        holder.requestedQuantity?.text = issueDetail.requestedQty
+        holder.issuedQuantity?.text = issueDetail.issueQty
         holder.delete.setOnClickListener{
            try {
                 drugConsumptionViewModel.viewModelScope.launch {
                     drugConsumptionViewModel.updateDrugConsumption(
                         issueDetail.itemId.toLong(),
-                        drugList[position].requestedQty.toInt() * -1
+                        drugList[position].issueQty.toInt() * -1
                     )
                 }
                drugViewModel.deleteAtIndex(position)
