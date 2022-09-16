@@ -15,11 +15,13 @@ import org.hmispb.drugdispensing.DailyDrugConsumptionViewModel
 import org.hmispb.drugdispensing.DrugViewModel
 import org.hmispb.drugdispensing.R
 import org.hmispb.drugdispensing.model.Data
+import org.hmispb.drugdispensing.model.Drug
 import org.hmispb.drugdispensing.model.IssueDetail
 
 class DrugDetailAdapter(private val data: Data,
     private val drugList: MutableList<IssueDetail>,
-                        private val drugConsumptionViewModel: DailyDrugConsumptionViewModel
+                        private val drugConsumptionViewModel: DailyDrugConsumptionViewModel,
+                        private val drugViewModel: DrugViewModel
 ): RecyclerView.Adapter<DrugDetailAdapter.DrugDetailViewHolder>() {
 
     class DrugDetailViewHolder(view: View?) : RecyclerView.ViewHolder(view!!) {
@@ -52,6 +54,8 @@ class DrugDetailAdapter(private val data: Data,
                         drugList[position].requestedQty.toInt() * -1
                     )
                 }
+               drugViewModel.deleteAtIndex(position)
+
             } catch (e:Exception){
                 e.printStackTrace()
             }

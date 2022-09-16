@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val drugList = drugViewModel.issueDetails.value
-        val adapter = DrugDetailAdapter(data,drugList?: mutableListOf(), drugConsumptionViewModel)
+        val adapter = DrugDetailAdapter(data,drugList?: mutableListOf(), drugConsumptionViewModel, drugViewModel)
         binding.recyclerView.adapter= adapter
         drugViewModel.issueDetails.observe(this) {
             lifecycleScope.launch {
