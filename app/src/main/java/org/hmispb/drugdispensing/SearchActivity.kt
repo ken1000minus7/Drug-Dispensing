@@ -1,11 +1,10 @@
 package org.hmispb.drugdispensing
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.SearchView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView.OnQueryTextListener
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
@@ -14,7 +13,6 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 import org.hmispb.drugdispensing.adapter.DrugConsumptionAdapter
 import org.hmispb.drugdispensing.databinding.ActivitySearchBinding
-import org.hmispb.drugdispensing.model.DailyDrugConsumption
 import org.hmispb.drugdispensing.model.DailyDrugConsumption.Companion.emptyDrugConsumptionItem
 import org.hmispb.drugdispensing.model.Data
 
@@ -66,7 +64,7 @@ class SearchActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId== android.R.id.home){
-            startActivity(Intent(this,MainActivity::class.java))
+            finish()
         }
         return true
     }
