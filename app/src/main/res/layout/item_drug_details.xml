@@ -23,6 +23,7 @@
             android:layout_marginVertical="@dimen/_10sdp"
             android:text="@string/drug_name"
             android:textStyle="bold"
+            android:textSize="@dimen/_11ssp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/linear_info" />
 
@@ -32,6 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_13sdp"
+            android:textSize="@dimen/_12ssp"
             app:layout_constraintBottom_toBottomOf="@+id/drug_name"
             app:layout_constraintEnd_toStartOf="@id/delete"
             app:layout_constraintStart_toEndOf="@id/drug_name"
@@ -44,6 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="@dimen/_10sdp"
             android:text="@string/requested_quantity"
+            android:textSize="@dimen/_11ssp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_drug_name" />
 
@@ -54,6 +57,7 @@
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginVertical="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_13sdp"
+            android:textSize="@dimen/_12ssp"
             app:layout_constraintBottom_toBottomOf="@+id/requested_quantity"
             app:layout_constraintEnd_toStartOf="@id/delete"
             app:layout_constraintStart_toEndOf="@id/requested_quantity"
