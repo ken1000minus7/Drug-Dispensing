@@ -32,7 +32,7 @@ class AddDrugBottomSheet(val data : Data) : BottomSheetDialogFragment() {
 
         val spinner = view.findViewById<MaterialTextView>(R.id.spinner_drug_name)
         val addDrugButton = view.findViewById<Button>(R.id.bottomSheet_addDrugs)
-        val requestedQuantity = view.findViewById<TextInputEditText>(R.id.name_input)
+        val issuedQuantity = view.findViewById<TextInputEditText>(R.id.name_input)
 
         val drugViewModel: DrugViewModel by activityViewModels()
         val drugs = mutableListOf<Drug>()
@@ -40,8 +40,8 @@ class AddDrugBottomSheet(val data : Data) : BottomSheetDialogFragment() {
             drugs.add(drug)
         }
 
-        requestedQuantity.addTextChangedListener {
-            drugViewModel.requestedQuantity.postValue(it.toString())
+        issuedQuantity.addTextChangedListener {
+            drugViewModel.issueQuantity.postValue(it.toString())
         }
 
         spinner.setOnClickListener {
@@ -82,7 +82,7 @@ class AddDrugBottomSheet(val data : Data) : BottomSheetDialogFragment() {
                     "Please select drug",
                     Toast.LENGTH_SHORT
                 ).show()
-                else if (requestedQuantity.text?.isEmpty() == true) Toast.makeText(
+                else if (issuedQuantity.text?.isEmpty() == true) Toast.makeText(
                     requireContext(),
                     "Please add required quantity",
                     Toast.LENGTH_SHORT

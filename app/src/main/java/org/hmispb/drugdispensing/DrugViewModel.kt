@@ -1,6 +1,5 @@
 package org.hmispb.drugdispensing
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -19,14 +18,14 @@ class DrugViewModel  @Inject constructor(
 ) : ViewModel() {
     var uploaded : MutableLiveData<Boolean> = MutableLiveData(false)
     val issueDetails: MutableLiveData<MutableList<IssueDetail>> = MutableLiveData()
-    val requestedQuantity = MutableLiveData<String>()
+    val issueQuantity = MutableLiveData<String>()
     val drugID = MutableLiveData<String>()
     var drugIssueList = drugIssueRepository.getAllDrugIssues()
 
     fun addQuantityToIssueDetail() {
-        if (requestedQuantity.value!="") {
+        if (issueQuantity.value!="") {
             val issueDetail = IssueDetail(
-                requestedQty = requestedQuantity.value!!,
+                issueQty = issueQuantity.value!!,
                 itemId = drugID.value!!
             )
             val list = issueDetails.value ?: mutableListOf()
