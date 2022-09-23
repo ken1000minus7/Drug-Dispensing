@@ -19,7 +19,7 @@ android {
         targetSdk 32
         versionCode 3
         versionName "1.0.2"
-
+        archivesBaseName = "$applicationId-v${versionName}"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
