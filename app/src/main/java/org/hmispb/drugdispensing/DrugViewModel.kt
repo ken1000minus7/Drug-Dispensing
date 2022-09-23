@@ -1,5 +1,6 @@
 package org.hmispb.drugdispensing
 
+import android.content.SharedPreferences
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -14,7 +15,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class DrugViewModel  @Inject constructor(
-    private val drugIssueRepository: DrugIssueRepository
+    private val drugIssueRepository: DrugIssueRepository,
+    private val sharedPreferences: SharedPreferences
 ) : ViewModel() {
     var uploaded : MutableLiveData<Boolean> = MutableLiveData(false)
     val issueDetails: MutableLiveData<MutableList<IssueDetail>> = MutableLiveData()
@@ -73,6 +75,12 @@ class DrugViewModel  @Inject constructor(
         viewModelScope.launch {
             try {
                 val response = login(username,password)
+                response?.let {
+                    sharedPreferences.edit()
+                        .putString(Util.UPLOAD_USERNAME,username)
+                        .putString(Util.UPLOAD_PASSWORD,password)
+                        .commit()
+                }
                 for(drugIssue in drugIssues) {
                     if(response!=null && !drugIssue.isUploaded) {
                         try {

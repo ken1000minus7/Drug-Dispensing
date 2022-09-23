@@ -1,6 +1,7 @@
 package org.hmispb.drugdispensing
 
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import android.widget.SearchView
 import android.widget.Toast
@@ -22,6 +23,8 @@ class SearchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySearchBinding.inflate(layoutInflater)
+        val appName = applicationInfo.loadLabel(packageManager).toString()
+        title = "$appName v${BuildConfig.VERSION_NAME}"
         setContentView(binding.root)
         try { supportActionBar?.setDisplayHomeAsUpEnabled(true) } catch (e : Exception){}
         val viewModel = ViewModelProvider(this)[DailyDrugConsumptionViewModel::class.java]
@@ -34,31 +37,30 @@ class SearchActivity : AppCompatActivity() {
         val adapter = DrugConsumptionAdapter(data!!)
 
         binding.recyclerView.adapter = adapter
-        binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener,
-            OnQueryTextListener {
 
-            override fun onQueryTextSubmit(p0: String?): Boolean {
-                lifecycleScope.launch {
-                    try{ adapter.updateData(viewModel.searchDrugConsumptionOfAParticularDay(p0!!)) } catch (e: Exception){
-                        Toast.makeText(
-                            this@SearchActivity,
-                            "Could not find data for specified date",
-                            Toast.LENGTH_SHORT
-                        ).show()
-                    }
+        binding.search.setOnClickListener {
+            Log.d("hello","check")
+            if(binding.date.text.toString().length<2 || binding.month.toString().length<2 || binding.year.toString().length<2) {
+                if(binding.date.text.toString().length<2)
+                    binding.date.error = "Required"
+                if(binding.month.text.toString().length<2)
+                    binding.month.error = "Required"
+                if(binding.year.text.toString().length<2)
+                    binding.year.error = "Required"
+                Log.d("hello","again")
+                return@setOnClickListener
+            }
+            val date = "${binding.date.text.toString()}-${binding.month.text.toString()}-${binding.year.text.toString()}"
+            Log.d("hello",date)
+            lifecycleScope.launch {
+                try{ adapter.updateData(viewModel.searchDrugConsumptionOfAParticularDay(date)) } catch (e: Exception){
+                    Toast.makeText(
+                        this@SearchActivity,
+                        "Could not find data for specified date",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
-                return true
             }
-
-            override fun onQueryTextChange(p0: String?): Boolean {
-                return true
-            }
-        })
-        binding.searchView.setOnCloseListener {
-            lifecycleScope.launch{
-                adapter.updateData(emptyDrugConsumptionItem)
-            }
-            true
         }
     }
 

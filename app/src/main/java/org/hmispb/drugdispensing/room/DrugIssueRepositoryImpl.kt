@@ -30,6 +30,7 @@ class DrugIssueRepositoryImpl(private val drugIssueDao: DrugIssueDao, private va
     override suspend fun saveDrugIssue(drugIssue: DrugIssue, hospitalCode: String, userId: String) {
         val drugIssueString = Gson().toJson(drugIssue)
         val request = SaveDrugIssueRequest(hospitalCode,userId,drugIssueString)
+        Log.d("checky",Gson().toJson(request))
         drugIssueApi.saveDrugIssue(request)
     }
 

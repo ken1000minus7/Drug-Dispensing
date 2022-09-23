@@ -8,6 +8,8 @@ object Util {
     const val HOSPITAL_NAME = "hospitalName"
     const val USER_ID = "userId"
     const val USERNAME = "UserName"
+    const val UPLOAD_USERNAME = "uploadUsername"
+    const val UPLOAD_PASSWORD = "uploadPassword"
     val allDrugs = listOf(10100005,
         10107089,
         10100019,

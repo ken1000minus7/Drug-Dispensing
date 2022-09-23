@@ -6,28 +6,96 @@
     android:layout_height="match_parent"
     tools:context=".SearchActivity">
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/search_view"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginVertical="@dimen/_5sdp"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        app:queryHint="fill date in dd-mm-yy"
-        app:layout_constraintTop_toTopOf="parent"
-        android:inputType="date"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:hint="DD"
+                android:maxLength="2"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:textAlignment="center"
+                android:textSize="@dimen/_14ssp"
+                tools:text="12" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/month"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:hint="MM"
+                android:maxLength="2"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:textAlignment="center"
+                android:textSize="@dimen/_14ssp"
+                 />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/year"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:maxLength="2"
+                android:hint="YY"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:textAlignment="center"
+                android:textSize="@dimen/_14ssp"
+                tools:text="12" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:src="@drawable/ic_search"/>
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="@dimen/_10sdp"
+        tools:listitem="@layout/item_drug_consumption"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="@dimen/_10sdp"
-        app:layout_constraintTop_toBottomOf="@id/search_view"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,6 +2,7 @@ package org.hmispb.drugdispensing.room
 
 import android.app.Application
 import android.content.Context
+import android.content.SharedPreferences
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
 import androidx.room.Room
@@ -12,6 +13,7 @@ import dagger.hilt.components.SingletonComponent
 import okhttp3.Cache
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
+import org.hmispb.drugdispensing.Util.LOGIN_RESPONSE_PREF
 import org.hmispb.drugdispensing.Util.password
 import org.hmispb.drugdispensing.Util.username
 import org.hmispb.drugdispensing.model.DailyDrugConsumption
@@ -47,7 +49,7 @@ object DrugIssueModule {
 
     @Provides
     @Singleton
-    fun provideDrugIssueApi(app : Application) : DrugIssueApi {
+    fun provideDrugIssueApi(app : Application, sharedPreferences: SharedPreferences) : DrugIssueApi {
         val logging = HttpLoggingInterceptor()
         logging.setLevel(HttpLoggingInterceptor.Level.BODY)
         val cacheSize = (10*1024*1024).toLong()
@@ -77,6 +79,12 @@ object DrugIssueModule {
             .client(okHttpClient)
             .build()
             .create(DrugIssueApi::class.java)
+    }
+
+    @Provides
+    @Singleton
+    fun provideSharedPreferences(app : Application) : SharedPreferences {
+        return app.getSharedPreferences(LOGIN_RESPONSE_PREF,Context.MODE_PRIVATE)
     }
 
     private fun hasNetwork(app : Application): Boolean? {

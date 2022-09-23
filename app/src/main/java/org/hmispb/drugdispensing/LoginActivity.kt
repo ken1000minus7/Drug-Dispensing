@@ -34,6 +34,8 @@ class LoginActivity : AppCompatActivity() {
         }
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
+        val appName = applicationInfo.loadLabel(packageManager).toString()
+        title = "$appName v${BuildConfig.VERSION_NAME}"
         setContentView(binding.root)
         val viewModel: DrugViewModel by viewModels()
         binding.btnSubmit.setOnClickListener {

@@ -31,8 +31,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityMainBinding.inflate(layoutInflater)
+        val appName = applicationInfo.loadLabel(packageManager).toString()
+        title = "$appName v${BuildConfig.VERSION_NAME}"
         setContentView(binding.root)
+
+
 
         val jsonString = resources!!.openRawResource(R.raw.data).bufferedReader().use { it.readText() }
         val data = Gson().fromJson(jsonString, Data::class.java)
@@ -99,7 +104,7 @@ class MainActivity : AppCompatActivity() {
             ).show()
             else {
                 try {
-                    drugViewModel.insertDrug(binding.crno.text.toString())
+                    drugViewModel.insertDrug(hospitalCode + crMiddle + binding.crno.text.toString())
                     Toast.makeText(this@MainActivity, "Prescription saved ", Toast.LENGTH_SHORT)
                         .show()
                     binding.crno.text?.clear()
